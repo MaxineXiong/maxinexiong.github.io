@@ -260,3 +260,50 @@
 			});
 
 })(jQuery);
+
+
+// Search bar
+
+const searchInput = document.getElementById("query");
+const searchResultsContainer = document.getElementById("searchResults");
+
+const projects = [
+	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps" },
+	{ name: "ChatGPT-3.5 Desktop App", url: "./projects/ai-projects.html#gpt-desktop" },
+	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing" },
+	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting" },
+	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC" },
+	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo" }
+	// Add more projects here
+];
+
+searchInput.addEventListener("input", function() {
+	const query = searchInput.value.trim();
+	const filteredResults = projects.filter(project =>
+		project.name.toLowerCase().includes(query.toLowerCase())
+	);
+
+	if (filteredResults.length > 0 && query !== "") {
+		const searchResultsHTML = filteredResults
+			.map(project => `<div class="dropdown-list-item" data-url="${project.url}">${project.name}</div>`)
+			.join("");
+		searchResultsContainer.innerHTML = searchResultsHTML;
+		searchResultsContainer.style.display = "block";
+	} else {
+		searchResultsContainer.innerHTML = "";
+		searchResultsContainer.style.display = "none";
+	}
+});
+
+searchResultsContainer.addEventListener("click", function(event) {
+	if (event.target.classList.contains("dropdown-list-item")) {
+		const url = event.target.dataset.url;
+		window.location.href = url;
+	}
+});
+
+document.addEventListener("click", function(event) {
+	if (!searchInput.contains(event.target)) {
+		searchResultsContainer.style.display = "none";
+	}
+});

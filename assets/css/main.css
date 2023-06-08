@@ -1978,7 +1978,7 @@ button,
       #main > .inner > section {
         padding: 3em 0 1em 0 ; } }
 
-/* Sidebar */
+/* Search Bar */
 #search form {
   text-decoration: none;
   position: relative; }
@@ -2014,6 +2014,36 @@ button,
   #search form input[type="text"] {
     padding-right: 2.75em; }
 
+/* Dropdown list for the search bar */
+  .search-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    display: none;
+  }
+
+  .dropdown-list-item {
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+
+    .dropdown-list-item:hover {
+      background-color: #f56a6a;
+      color: #FFFFFF;
+    }
+
+
+
+/* Sidebar */
 #sidebar {
   -moz-flex-grow: 0;
   -webkit-flex-grow: 0;
