@@ -12,7 +12,7 @@
 
 <br/>
 
-Welcome to the GitHub repository for my personal website - [**Maxine Xiong's Tech Odyssey**](https://maxinexiong.github.io/)! This repository contains the source code and assets for my website, which showcases my technical skills, certifications, projects, blog posts, and my resume.
+Welcome to the GitHub repository for my personal website - [**Maxine's Tech Odyssey**](https://maxinexiong.github.io/)! This repository contains the source code and assets for my website, which showcases my technical skills, certifications, projects, blog posts, and my resume.
 
 <br/>
 
