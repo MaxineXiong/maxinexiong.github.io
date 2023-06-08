@@ -18,7 +18,7 @@ Welcome to the GitHub repository for my personal website - [**Maxine Xiong's Tec
 
 Click the badge below to visit my personal website:
 
-[![VIEW - Maxine's Tech Odyssey](https://img.shields.io/badge/VIEW-Maxine's_Tech_Odyssey-7289DA?style=for-the-badge)](https://)
+[![VIEW - Maxine's Tech Odyssey](https://img.shields.io/badge/VIEW-Maxine's_Tech_Odyssey-7289DA?style=for-the-badge)](https://maxinexiong.github.io/)
 
 <br/>
 
