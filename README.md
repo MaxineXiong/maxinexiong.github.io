@@ -45,9 +45,10 @@ This personal website serves as a central hub for anyone interested in learning 
 
 - **Technical Skills:** Browse through an extensive collection of my technical skills, ranging from programming languages to frameworks and tools. You can access **My Skills Hub** hosted on [Tableau](https://public.tableau.com/views/Skills-templateandhints/SKILLSHUB?:language=en-GB&:display_count=n&:origin=viz_share_link), which presents these skills through various skill icons, indicating the proficiency level for each. Each skill icon is linked to relevant certifications I have earned and projects I have completed, allowing for direct access to detailed information and demonstrations associated with each skill.
 - **Certifications:** Explore the certifications I have earned, showcasing my commitment to continuous learning and professional development.
-- **Projects:** Get an insight into the projects I have completed, highlighting the skills and technologies utilized.
+- **Projects:** Get an insight into the projects I have completed, highlighting the skills and technologies utilized. You can quickly locate a specific project of interest by using the search bar on the home page.
 - **Blog Posts:** Read my blog posts published on Medium, where I share my knowledge and insights on various technical topics.
 - **Resume:** Download my detailed resume to gain a comprehensive understanding of my professional qualifications.
+- **Light/Dark Mode**: Switch between light mode and dark mode to customize your viewing experience and enjoy different visual themes on the website.
 
 <br/>
 
