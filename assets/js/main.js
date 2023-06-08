@@ -269,6 +269,7 @@ const searchInput = document.getElementById("query");
 const searchResultsContainer = document.getElementById("searchResults");
 
 const projects = [
+	{ name: "My Personal Website", url: "./projects/html-css.html#personal-web" },
 	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps" },
 	{ name: "ChatGPT-3.5 Desktop App", url: "./projects/ai-projects.html#gpt-desktop" },
 	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing" },
