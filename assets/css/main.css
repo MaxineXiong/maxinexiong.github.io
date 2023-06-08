@@ -1824,13 +1824,14 @@ button,
     -webkit-flex-shrink: 1;
     -ms-flex-shrink: 1;
     flex-shrink: 1;
-    margin: 0 0 6em 6em;
+    margin: 0 0 9em 6em;
     position: relative;
     width: calc(33.33333% - 6em); }
     .posts article:before {
       background: rgba(210, 215, 217, 0.75);
       content: '';
-      display: block;
+      /* display: block; */
+      display: none;
       height: calc(100% + 6em);
       left: -3em;
       position: absolute;
@@ -1840,7 +1841,8 @@ button,
       background: rgba(210, 215, 217, 0.75);
       bottom: -3em;
       content: '';
-      display: block;
+      /* display: block; */
+      display: none;
       height: 1px;
       position: absolute;
       right: 0;
@@ -1852,7 +1854,8 @@ button,
       margin: 0 0 2em 0; }
       .posts article .image img {
         display: block;
-        width: 100%; }
+        width: 100%;
+        border: 1px solid #7f888f;}
   @media screen and (min-width: 1681px) {
     .posts article:nth-child(3n + 1):before {
       display: none; }

@@ -1,0 +1,214 @@
+body {
+  background: radial-gradient(circle at center, #323942, #1B1F24);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.introduction {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-mktg {
+    font-weight: 800 !important;
+    font-size: 6rem;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.h2-mktg {
+    font-weight: 800 !important;
+    font-size: 4rem;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.h3-mktg {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.h4-mktg {
+  font-size: 1.6rem;
+  color: #fff;
+  margin-top: -5px;
+}
+
+.h5-mktg {
+  font-size: 2rem;
+  color: #fff;
+  margin-top: -80px;
+  margin-bottom: 0px;
+}
+
+.display-functions-containers {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.func-container {
+  position: relative;
+  margin-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.func-title{
+  font-size: 3rem;
+  color: #fff;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.func-description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #9EA4AC;
+  margin-top: -100px;
+  margin-bottom: 60px;
+  /* position: absolute; */
+  width: 65%;
+  text-align: center;
+  line-height: 1.35;
+}
+
+.gif-container {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+.gif-img {
+  display: block;
+  max-width: 100%;
+}
+
+.text-gradient-codemax {
+    /* background: linear-gradient(to right, #93f5ec 5%, #a77bf3 80%); */
+    background: -webkit-linear-gradient(300deg, #93f5ec 20%, #a77bf3 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-box-decoration-break: clone;
+}
+
+.app-button {
+  width: 220px;
+  height: 50px;
+  padding: 12px 24px;
+  border: none;
+  background-color: #fff;
+  text-decoration: none;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  border-radius: 10px;
+  border: 5px solid #fff;
+}
+
+.app-button:hover {
+  text-decoration: none;
+  box-shadow: 0px 0px 50px #93f5ec;
+  border-color: #93f5ec;
+}
+
+.app-button:active,
+.app-button:focus {
+  outline: none;
+}
+
+.app-button a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .introduction {
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+  .h2-mktg {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .h1-mktg {
+    font-size: 2.5rem;
+    margin-top: 55px;
+    margin-bottom: 55px;
+  }
+
+  .h3-mktg {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+
+  .h4-mktg {
+    font-size: 0.8rem;
+    margin-top: -10px;
+  }
+
+  .h5-mktg {
+    font-size: 1.2rem;
+    margin-top: 6.5px;
+  }
+
+  .display-functions-containers {
+    margin-bottom: 100px;
+    margin-top: 50px;
+  }
+
+  .func-container {
+    position: relative;
+    margin-bottom: 70px;
+  }
+
+  .func-title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .func-description {
+    font-size: 0.7rem;
+    margin-top: -30px;
+    width: 100%;
+  }
+
+  .gif-container {
+    margin-top: -30px;
+    margin-bottom: 50px;
+    width: 100%;
+  }
+
+  .app-button {
+    width: 200px;
+    height: 70px;
+    font-size: 0.1rem;
+    margin-top: 50px;
+    margin-bottom: 80px;
+  }
+}

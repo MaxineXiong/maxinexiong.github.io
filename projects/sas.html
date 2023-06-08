@@ -84,6 +84,24 @@
 
 								<!-- Footer -->
 								<footer id="footer">
+									<div style="display: flex; align-items: center;">
+								    <label for="dropdown" style="width:50%; font-size:18px; color:#9fa3a6; margin: 0.1em 0.1em 0.1em 0.1em">THEME</label>
+								    <select id="dropdown" style="width:50%">
+								      <option value="light-mode" selected>Light Mode</option>
+								      <option value="dark-mode">Dark Mode</option>
+								    </select>
+										<!-- JS part for THEME selection -->
+										<script>
+										  const dropdown = document.getElementById("dropdown");
+
+										  dropdown.addEventListener("change", function() {
+										    if (dropdown.value === "dark-mode") {
+										      window.location.href = "../dark-mode/projects/sas.html";
+										    }
+										  });
+										</script>
+								  </div>
+									<br><br>
 									<p class="copyright"><i>&copy; 2023 XIONG, CHUCHU All Rights Reserved.</i></p>
 									<p style='font-size:11px;color:#9fa3a6'>
 										This website and its content are protected by copyright. All materials, including images, illustrations, designs,
