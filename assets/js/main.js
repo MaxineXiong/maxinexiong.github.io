@@ -272,6 +272,7 @@ const projects = [
 	{ name: "My Personal Website", url: "./projects/html-css.html#personal-web" },
 	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps" },
 	{ name: "ChatGPT-3.5 Desktop App", url: "./projects/ai-projects.html#gpt-desktop" },
+	{ name: "ImageAI Computer Vision Flask Apps", url: "./projects/ai-projects.html#imageai-flask" },
 	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing" },
 	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting" },
 	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC" },
