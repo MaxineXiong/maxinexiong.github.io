@@ -275,7 +275,8 @@ const projects = [
 	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing" },
 	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting" },
 	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC" },
-	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo" }
+	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo" },
+	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo" }
 	// Add more projects here
 ];
 
