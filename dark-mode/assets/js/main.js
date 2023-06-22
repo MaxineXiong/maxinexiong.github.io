@@ -271,12 +271,12 @@ const projects = [
 	{ name: "My Personal Website", url: "./projects/html-css.html#personal-web", labels: ['html5', 'css3', 'javascript', 'js'] },
 	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps", labels: ['python', 'web application', 'gpt', 'chatgpt', 'streamlit', 'gTTS'] },
 	{ name: "ChatGPT-3.5 Desktop App", url: "./projects/ai-projects.html#gpt-desktop", labels: ['ai', 'tkinter', 'GUI', 'pyttsx3', 'python', 'desktop application'] },
-	{ name: "ImageAI Computer Vision Flask Apps", url: "./projects/ai-projects.html#imageai-flask", labels: ['pandas', 'computer vision', 'cv', 'html5', 'css3', 'python', 'application'] },
+	{ name: "ImageAI Computer Vision Flask Apps", url: "./projects/ai-projects.html#imageai-flask", labels: ['pandas', 'computer vision', 'cv', 'html5', 'css3', 'python', 'application', 'data analysis', 'analyze', 'analyse'] },
 	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing", labels: ['vba', 'excel', 'invoicing'] },
 	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting", labels: ['vba', 'excel'] },
 	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC", labels: ['vba', 'excel', 'toc'] },
 	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo", labels: ['sql', 'exercise', 'challenge'] },
-	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo", labels: ['route planning', 'path finding', 'python'] }
+	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo", labels: ['route planning', 'path finding', 'python', 'matplotlib', 'data visualization', 'data viz'] }
 	// Add more projects here
 ];
 
