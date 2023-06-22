@@ -269,22 +269,23 @@ const searchInput = document.getElementById("query");
 const searchResultsContainer = document.getElementById("searchResults");
 
 const projects = [
-	{ name: "My Personal Website", url: "./projects/html-css.html#personal-web" },
-	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps" },
-	{ name: "ChatGPT-3.5 Desktop App", url: "./projects/ai-projects.html#gpt-desktop" },
-	{ name: "ImageAI Computer Vision Flask Apps", url: "./projects/ai-projects.html#imageai-flask" },
-	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing" },
-	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting" },
-	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC" },
-	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo" },
-	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo" }
+	{ name: "My Personal Website", url: "./projects/html-css.html#personal-web", labels: ['html5', 'css3', 'javascript', 'js'] },
+	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps", labels: ['python', 'web application', 'gpt', 'chatgpt', 'streamlit', 'gTTS'] },
+	{ name: "ChatGPT-3.5 Desktop App", url: "./projects/ai-projects.html#gpt-desktop", labels: ['ai', 'tkinter', 'GUI', 'pyttsx3', 'python', 'desktop application'] },
+	{ name: "ImageAI Computer Vision Flask Apps", url: "./projects/ai-projects.html#imageai-flask", labels: ['pandas', 'computer vision', 'cv', 'html5', 'css3', 'python', 'application'] },
+	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing", labels: ['vba', 'excel', 'invoicing'] },
+	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting", labels: ['vba', 'excel'] },
+	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC", labels: ['vba', 'excel', 'toc'] },
+	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo", labels: ['sql', 'exercise', 'challenge'] },
+	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo", labels: ['route planning', 'path finding', 'python'] }
 	// Add more projects here
 ];
 
 searchInput.addEventListener("input", function() {
 	const query = searchInput.value.trim();
 	const filteredResults = projects.filter(project =>
-		project.name.toLowerCase().includes(query.toLowerCase())
+		project.name.toLowerCase().includes(query.toLowerCase()) ||
+		project.labels.some(label => label.toLowerCase().includes(query.toLowerCase()))
 	);
 
 	if (filteredResults.length > 0 && query !== "") {
