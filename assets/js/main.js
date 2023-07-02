@@ -277,7 +277,10 @@ const projects = [
 	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting", labels: ['vba', 'excel'] },
 	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC", labels: ['vba', 'excel', 'toc'] },
 	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo", labels: ['sql', 'exercise', 'challenge'] },
-	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo", labels: ['route planning', 'path finding', 'python', 'matplotlib', 'data visualization', 'data viz'] }
+	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo", labels: ['route planning', 'path finding', 'python', 'matplotlib', 'data visualization', 'data viz'] },
+	{ name: "TSA Claims Data Analysis", url: "./projects/sas.html#sas-tsa", labels: ['SAS 9.4', 'SAS Base Programming', 'SAS Studio', 'data analysis', 'analyze', 'analyse', 'data preparation', 'case study'] },
+	{ name: "World Tourism Data Preparation", url: "./projects/sas.html#sas-tourism", labels: ['SAS 9.4', 'SAS Base Programming', 'SAS Studio', 'data analysis', 'analyze', 'analyse', 'data preparation', 'case study'] },
+	{ name: "Weight Loss Analysis", url: "./projects/sas.html#sas-ws", labels: ['SAS 9.4', 'SAS Base Programming', 'SAS Studio', 'data analysis', 'analyze', 'analyse', 'data preparation', 'case study'] }
 	// Add more projects here
 ];
 
