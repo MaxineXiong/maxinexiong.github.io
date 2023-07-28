@@ -282,8 +282,8 @@ const projects = [
 	{ name: "Weight Loss Analysis", url: "./projects/sas.html#sas-ws", labels: ['SAS 9.4', 'SAS Base Programming', 'SAS Studio', 'data analysis', 'analyze', 'analyse', 'data preparation', 'case study', 'business analysis', 'business analytics', 'BA'] },
 	{ name: "Go to my Tableau Public", url: "https://public.tableau.com/app/profile/maxine1212", labels: ['Tableau', 'data visualization', 'data visualisation', 'data viz'] },
 	{ name: "Go to my Alteryx Community", url: "https://community.alteryx.com/t5/forums/recentpostspage/post-type/message/user-id/103689/page/1", labels: ['Alteryx', 'data preparation', 'data transformation', 'data cleansing', 'data analysis', 'data analytics', 'analyze', 'analyse', 'business analysis', 'business analytics', 'BA'] },
-	{ name: "Degrees of Separation with Breadth-first Search in PySpark", url: "./projects/spark.html#spark-marvel", labels: ['apache spark', 'pyspark rdd', 'bfs algorithm', 'marvel characters', 'degree of separations'] },
-	{ name: "Item-based Collaborative Filtering in PySpark", url: "./projects/spark.html#spark-movie", labels: ['apache spark', 'pyspark rdd', 'pyspark dataframes', 'movie recommenders', 'movie recommendations'] }
+	{ name: "Degrees of Separation with Breadth-first Search in PySpark", url: "./projects/spark.html#spark-marvel", labels: ['apache spark', 'pyspark rdd', 'bfs algorithm', 'marvel characters', 'degree of separations', 'python'] },
+	{ name: "Item-based Collaborative Filtering in PySpark", url: "./projects/spark.html#spark-movie", labels: ['apache spark', 'pyspark rdd', 'pyspark dataframes', 'movie recommenders', 'movie recommendations', 'python'] }
 	// Add more projects here
 ];
 
