@@ -1,5 +1,5 @@
 ### *My Personal Website*
-# Maxine Xiong's Tech Odyssey
+# Maxine Xiong's Tech Gallery
 
 <br/>
 
@@ -12,13 +12,13 @@
 
 <br/>
 
-Welcome to the GitHub repository for my personal website - [**Maxine's Tech Odyssey**](https://maxinexiong.github.io/)! This repository contains the source code and assets for my website, which showcases my technical skills, certifications, projects, blog posts, and my resume.
+Welcome to the GitHub repository for my personal website - [**Maxine's Tech Gallery**](https://maxinexiong.github.io/)! This repository contains the source code and assets for my website, which showcases my technical skills, certifications, projects, blog posts, and my resume.
 
 <br/>
 
 Click the badge below to visit my personal website:
 
-[![VIEW - Maxine's Tech Odyssey](https://img.shields.io/badge/VIEW-Maxine's_Tech_Odyssey-7289DA?style=for-the-badge)](https://maxinexiong.github.io/)
+[![VIEW - Maxine's Tech Gallery](https://img.shields.io/badge/VIEW-Maxine's_Tech_Gallery-7289DA?style=for-the-badge)](https://maxinexiong.github.io/)
 
 <br/>
 
@@ -45,7 +45,7 @@ This personal website serves as a central hub for anyone interested in learning 
 
 - **Technical Skills:** Browse through an extensive collection of my technical skills, ranging from programming languages to frameworks and tools. You can access **My Skills Hub** hosted on [Tableau](https://public.tableau.com/views/Skills-templateandhints/SKILLSHUB?:language=en-GB&:display_count=n&:origin=viz_share_link), which presents these skills through various skill icons, indicating the proficiency level for each. Each skill icon is linked to relevant certifications I have earned and projects I have completed, allowing for direct access to detailed information and demonstrations associated with each skill.
 - **Certifications:** Explore the certifications I have earned, showcasing my commitment to continuous learning and professional development.
-- **Projects:** Get an insight into the projects I have completed, highlighting the skills and technologies utilized. You can quickly locate a specific project of interest by using the search bar on the home page.
+- **Projects:** Get an insight into the projects I have completed, highlighting the skills and technologies utilized. You can quickly locate a specific project of interest by using the search bar on the home page. The search bar supports project search through keywords such as _python_ and _sql_, making it easier to find projects related to specific technologies, topics and skills.
 - **Blog Posts:** Read my blog posts published on Medium, where I share my knowledge and insights on various technical topics.
 - **Resume:** Download my detailed resume to gain a comprehensive understanding of my professional qualifications.
 - **Light/Dark Mode**: Switch between light mode and dark mode to customize your viewing experience and enjoy different visual themes on the website.
