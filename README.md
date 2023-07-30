@@ -1,4 +1,4 @@
-### *My Personal Website*
+### *My Personal Porfolio Website*
 # Maxine Xiong's Tech Gallery
 
 <br/>
@@ -12,7 +12,7 @@
 
 <br/>
 
-Welcome to the GitHub repository for my personal website - [**Maxine's Tech Gallery**](https://maxinexiong.github.io/)! This repository contains the source code and assets for my website, which showcases my technical skills, certifications, projects, blog posts, and my resume.
+Welcome to the GitHub repository for my personal portfolio website - [**Maxine's Tech Gallery**](https://maxinexiong.github.io/)! This repository contains the source code and assets for my website, which showcases my technical skills, certifications, projects, blog posts, and my resume.
 
 <br/>
 
