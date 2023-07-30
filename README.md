@@ -16,7 +16,7 @@ Welcome to the GitHub repository for my personal portfolio website - [**Maxine's
 
 <br/>
 
-Click the badge below to visit my personal website:
+Click the badge below to visit my personal portfolio website:
 
 [![VIEW - Maxine's Tech Gallery](https://img.shields.io/badge/VIEW-Maxine's_Tech_Gallery-7289DA?style=for-the-badge)](https://maxinexiong.github.io/)
 
@@ -37,7 +37,7 @@ Click the badge below to visit my personal website:
 
 ## **About**
 
-This personal website serves as a central hub for anyone interested in learning more about my professional background. It provides a comprehensive overview of my technical skills, certifications, and the projects I have completed, along with my blog posts published on Medium. Additionally, visitors can access and download my resume for a detailed look at my qualifications.
+This personal portfolio website serves as a central hub for anyone interested in learning more about my professional background. It provides a comprehensive overview of my technical skills, certifications, and the projects I have completed, along with my blog posts published on Medium. Additionally, visitors can access and download my resume for a detailed look at my qualifications.
 
 <br/>
 
@@ -94,7 +94,7 @@ I value your feedback, suggestions, and questions regarding the website. Please 
 
 ## **Contributing**
 
-Thank you for your interest in contributing to my personal website. At the moment, I am not actively seeking contributions or pull requests for this particular project. However, if you have any suggestions or improvements in mind, please feel free to contact me or open an issue on the repository.
+Thank you for your interest in contributing to my personal portfolio website. At the moment, I am not actively seeking contributions or pull requests for this particular project. However, if you have any suggestions or improvements in mind, please feel free to contact me or open an issue on the repository.
 
 <br/>
 
@@ -110,4 +110,4 @@ If you would like to get in touch with me, you can reach me via email at [maxine
 
 <br/>
 
-Thank you for visiting my personal website repository! I hope you find it both informative and engaging as you explore and learn more about me.
+Thank you for visiting my personal portfolio website repository! I hope you find it both informative and engaging as you explore and learn more about me.
