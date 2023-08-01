@@ -346,3 +346,28 @@ document.addEventListener("click", function(event) {
       targetSection.scrollIntoView({ behavior: "smooth" });
     });
   });
+
+
+
+
+
+
+// Back to top text
+	const backToTopText = document.getElementById("backToTopText");
+
+	// Show/hide the text based on scroll position
+	window.addEventListener("scroll", function() {
+	  if (window.scrollY > 300) {
+	    backToTopText.style.display = "inline-block";
+	  } else {
+	    backToTopText.style.display = "none";
+	  }
+	});
+
+	// Scroll to the top when the text is clicked
+	backToTopText.addEventListener("click", function() {
+	  window.scrollTo({
+	    top: 0,
+	    behavior: "smooth"
+	  });
+	});
