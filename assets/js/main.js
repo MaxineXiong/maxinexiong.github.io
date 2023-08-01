@@ -319,3 +319,30 @@ document.addEventListener("click", function(event) {
 		searchResultsContainer.style.display = "none";
 	}
 });
+
+
+
+
+
+
+
+// Smooth scrolling effect with listed items on side navigation pane
+
+  const sideNavLinks = document.querySelectorAll("#menu ul a");
+
+  sideNavLinks.forEach(link => {
+    link.addEventListener("click", function(event) {
+			const targetSectionId = link.getAttribute("href");
+
+      // Check if the link is an external link (starts with "http://" or "https://")
+      if (!targetSectionId.startsWith("#")) {
+        // If it's an external link, the default behavior is allowed, and the browser will navigate to the external page.
+        return;
+      }
+
+      event.preventDefault();
+      const targetSection = document.querySelector(targetSectionId);
+
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    });
+  });

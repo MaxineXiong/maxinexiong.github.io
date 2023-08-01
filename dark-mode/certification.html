@@ -267,6 +267,20 @@
 			</div>
 
 		<!-- Scripts -->
+		<!-- Smooth scrolling effect with listed items on side navigation pane -->
+			<script>
+				const menuLinks = document.querySelectorAll("#menu a[href^='#']");
+
+				menuLinks.forEach(link => {
+					link.addEventListener("click", function(event) {
+						event.preventDefault();
+						const targetSectionId = link.getAttribute("href");
+						const targetSection = document.querySelector(targetSectionId);
+
+						targetSection.scrollIntoView({ behavior: "smooth" });
+					});
+				});
+			</script>
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>

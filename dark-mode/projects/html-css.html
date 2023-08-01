@@ -22,7 +22,7 @@
 
 	  gtag('config', 'G-KPWXSPH38M');
 	</script>
-	
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -175,11 +175,11 @@
 									</div>
 									<br><br>
 									<p class="copyright"><i>&copy; 2023 XIONG, CHUCHU All Rights Reserved.</i></p>
-									<p style='font-size:11px;color:#9fa3a6'>
+									<!-- <p style='font-size:11px;color:#9fa3a6'>
 										This website and its content are protected by copyright. All materials, including images, illustrations, designs,
 										icons, photographs, written and other materials that appear on this website are owned by CHUCHU XIONG, unless
 										otherwise stated, and are protected by applicable intellectual property laws.
-									</p>
+									</p> -->
 								</footer>
 
 						</div>
@@ -188,6 +188,20 @@
 			</div>
 
 		<!-- Scripts -->
+		<!-- Smooth scrolling effect with listed items on side navigation pane -->
+			<script>
+				const menuLinks = document.querySelectorAll("#menu a[href^='#']");
+
+				menuLinks.forEach(link => {
+					link.addEventListener("click", function(event) {
+						event.preventDefault();
+						const targetSectionId = link.getAttribute("href");
+						const targetSection = document.querySelector(targetSectionId);
+
+						targetSection.scrollIntoView({ behavior: "smooth" });
+					});
+				});
+			</script>
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
 			<script src="../assets/js/breakpoints.min.js"></script>
