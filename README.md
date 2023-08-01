@@ -1,5 +1,5 @@
 ### *My Personal Portfolio Website*
-# Maxine Xiong's Tech Gallery
+# Maxine's Tech Gallery
 
 <br/>
 
