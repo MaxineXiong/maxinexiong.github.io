@@ -284,7 +284,11 @@ const projects = [
 	{ name: "Go to my Tableau Public", url: "https://public.tableau.com/app/profile/maxine1212", labels: ['Tableau', 'data visualization', 'data visualisation', 'data viz'] },
 	{ name: "Go to my Alteryx Community", url: "https://community.alteryx.com/t5/forums/recentpostspage/post-type/message/user-id/103689/page/1", labels: ['Alteryx', 'data preparation', 'data transformation', 'data cleansing', 'data analysis', 'data analytics', 'analyze', 'analyse', 'business analysis', 'business analytics', 'BA'] },
 	{ name: "Degrees of Separation with Breadth-first Search in PySpark", url: "./projects/spark.html#spark-marvel", labels: ['apache spark', 'pyspark rdd', 'bfs algorithm', 'marvel characters', 'degree of separations', 'python'] },
-	{ name: "Item-based Collaborative Filtering in PySpark", url: "./projects/spark.html#spark-movie", labels: ['apache spark', 'pyspark rdd', 'pyspark dataframes', 'movie recommenders', 'movie recommendations', 'python'] }
+	{ name: "Item-based Collaborative Filtering in PySpark", url: "./projects/spark.html#spark-movie", labels: ['apache spark', 'pyspark rdd', 'pyspark dataframes', 'movie recommenders', 'movie recommendations', 'python'] },
+	{ name: "AI Plays Flappy Bird", url: "./projects/ai-projects.html#neat-flappy-bird", labels: ['neat-python', 'NEAT algorithm', 'NeuroEvolution of Augmenting Topologies (NEAT)',
+																																																'genetic algorithm (GA)', 'evolve', 'evolutionary', 'evolution and evaluation', 'generations',
+																																																'evolving artificial neural networks', 'genome', 'feedforward neural networks', 'feed forward neural networks',
+																																																'feed-forward neural networks', 'fitness', 'pygame', 'gameplay', 'green pipes', 'yellow birds', 'python'] }
 	// Add more projects here
 ];
 
