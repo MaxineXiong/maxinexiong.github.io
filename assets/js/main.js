@@ -276,7 +276,7 @@ const projects = [
 	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing", labels: ['vba', 'excel', 'invoicing', 'UserForms', 'user forms', 'ActiveX controls', 'business analysis', 'business analytics', 'BA'] },
 	{ name: "Sales Regional Reporting Tool", url: "./projects/vba.html#reporting", labels: ['vba', 'excel', 'listobjects', 'pivottables', 'pivot tables', 'business analysis', 'business analytics', 'BA'] },
 	{ name: "Automate Table of Contents", url: "./projects/vba.html#TOC", labels: ['vba', 'excel', 'toc', 'business analysis', 'business analytics', 'BA'] },
-	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo", labels: ['sql', 'exercise', 'challenge'] },
+	{ name: "SQLZOO Solutions", url: "./projects/sql.html#sqlzoo", labels: ['sql problems', 'exercises', 'challenges', 'mysql', 'database'] },
 	{ name: "Google Maps Style Route Planner with A* Search Algorithm", url: "./projects/algorithm.html#a-star-algo", labels: ['route planning', 'path finding', 'python', 'matplotlib', 'data visualization', 'data visualisation', 'data viz'] },
 	{ name: "TSA Claims Data Analysis", url: "./projects/sas.html#sas-tsa", labels: ['SAS 9.4', 'SAS Base Programming', 'SAS Studio', 'data analysis', 'analyze', 'analyse', 'data preparation', 'case study', 'business analysis', 'business analytics', 'BA'] },
 	{ name: "World Tourism Data Preparation", url: "./projects/sas.html#sas-tourism", labels: ['SAS 9.4', 'SAS Base Programming', 'SAS Studio', 'data analysis', 'analyze', 'analyse', 'data preparation', 'case study', 'business analysis', 'business analytics', 'BA'] },
@@ -288,7 +288,8 @@ const projects = [
 	{ name: "AI Plays Flappy Bird", url: "./projects/ai-projects.html#neat-flappy-bird", labels: ['neat-python', 'NEAT algorithm', 'NeuroEvolution of Augmenting Topologies (NEAT)',
 																																																'genetic algorithm (GA)', 'evolve', 'evolutionary', 'evolution and evaluation', 'generations',
 																																																'evolving artificial neural networks', 'genome', 'feedforward neural networks', 'feed forward neural networks',
-																																																'feed-forward neural networks', 'fitness', 'pygame', 'gameplay', 'green pipes', 'yellow birds', 'python'] }
+																																																'feed-forward neural networks', 'fitness', 'pygame', 'gameplay', 'green pipes', 'yellow birds', 'python'] },
+	{ name: "LeetCode SQL Solutions", url: "./projects/sql.html#leetcode-sql", labels: ['sql problems', 'exercises', 'challenges', 'mysql', 'database', 'leetcode'] }
 	// Add more projects here
 ];
 
