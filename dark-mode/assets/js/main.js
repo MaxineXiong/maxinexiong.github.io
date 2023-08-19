@@ -290,7 +290,7 @@ const projects = [
 																																																'evolving artificial neural networks', 'genome', 'feedforward neural networks', 'feed forward neural networks',
 																																																'feed-forward neural networks', 'fitness', 'pygame', 'gameplay', 'green pipes', 'yellow birds', 'python'] },
 	{ name: "LeetCode SQL Solutions", url: "./projects/sql.html#leetcode-sql", labels: ['sql problems', 'exercises', 'challenges', 'mysql', 'database', 'leetcode'] },
-	{ name: "Simultaneous Data Entry into CRM Apps", url: "./projects/rpa.html#rpa-data-entry", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Web Application', 'Desktop Application', 'parallel'] },
+	{ name: "Data Entry into CRM Apps", url: "./projects/rpa.html#rpa-data-entry", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Web Application', 'Desktop Application', 'parallel'] },
 	{ name: "Input Forms Challenge", url: "./projects/rpa.html#rpa-input-forms", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'RPA Challenge', 'Input Forms', 'Data Entry', 'Populate Forms', 'Fill-in Forms', 'Fill in Forms', 'Dynamic Fields'] }
 	// Add more projects here
 ];
