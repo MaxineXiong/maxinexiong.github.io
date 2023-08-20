@@ -291,7 +291,8 @@ const projects = [
 																																																'feed-forward neural networks', 'fitness', 'pygame', 'gameplay', 'green pipes', 'yellow birds', 'python'] },
 	{ name: "LeetCode SQL Solutions", url: "./projects/sql.html#leetcode-sql", labels: ['sql problems', 'exercises', 'challenges', 'mysql', 'database', 'leetcode'] },
 	{ name: "Data Entry into CRM Apps", url: "./projects/rpa.html#rpa-data-entry", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Web Application', 'Desktop Application', 'parallel'] },
-	{ name: "Input Forms Challenge", url: "./projects/rpa.html#rpa-input-forms", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'RPA Challenge', 'Input Forms', 'Data Entry', 'Populate Forms', 'Fill-in Forms', 'Fill in Forms', 'Dynamic Fields'] }
+	{ name: "Input Forms Challenge", url: "./projects/rpa.html#rpa-input-forms", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'RPA Challenge', 'Input Forms', 'Data Entry', 'Populate Forms', 'Fill-in Forms', 'Fill in Forms', 'Dynamic Fields'] },
+	{ name: "Web Scraping for Real Estate Data", url: "./projects/rpa.html#rpa-web-scrap", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Property', 'Properties', 'Location', 'Data Scraping', 'DataTable', 'Data Table', 'zillow.com'] }
 	// Add more projects here
 ];
 
