@@ -292,7 +292,8 @@ const projects = [
 	{ name: "LeetCode SQL Solutions", url: "./projects/sql.html#leetcode-sql", labels: ['sql problems', 'exercises', 'challenges', 'mysql', 'database', 'leetcode'] },
 	{ name: "Data Entry into CRM Apps", url: "./projects/rpa.html#rpa-data-entry", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Web Application', 'Desktop Application', 'parallel'] },
 	{ name: "Input Forms Challenge", url: "./projects/rpa.html#rpa-input-forms", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'RPA Challenge', 'Input Forms', 'Data Entry', 'Populate Forms', 'Fill-in Forms', 'Fill in Forms', 'Dynamic Fields'] },
-	{ name: "Web Scraping for Real Estate Data", url: "./projects/rpa.html#rpa-web-scrap", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Property', 'Properties', 'Location', 'Data Scraping', 'DataTable', 'Data Table', 'zillow.com'] }
+	{ name: "Web Scraping for Real Estate Data", url: "./projects/rpa.html#rpa-web-scrap", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Property', 'Properties', 'Location', 'Data Scraping', 'DataTable', 'Data Table', 'zillow.com', 'Excel Output'] },
+	{ name: "Scraping PDF Invoices", url: "./projects/rpa.html#rpa-pdf-scrap", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'Screen Scraping', 'Native Text', 'PDF Scraping', 'Scraping PDF', 'scrap PDF', 'Excel Output', 'PDF Invoices', 'invoice scraping', 'scrap invoices', 'scraping invoices'] }
 	// Add more projects here
 ];
 
