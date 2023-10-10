@@ -297,7 +297,13 @@ const projects = [
 																																											'Screen Scraping', 'Native Text', 'PDF Scraping', 'Scraping PDF', 'scrap PDF', 'Excel Output', 'PDF Invoices',
 																																											'invoice scraping', 'scrap invoices', 'scraping invoices', 'invoice issued to customers', 'invoices issued to customers',
 																																										  'invoice raised to customers', 'invoices raised to customers', 'invoices to customers', 'invoice to customers',
-																																										  'billing customers', 'bill customers'] }
+																																										  'billing customers', 'bill customers'] },
+	{ name: "Scraping Scanned Documents using OCR", url: "./projects/rpa.html#rpa-ocr-scrap", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes',
+																																																		 'optical character recognition', 'screen scraping with ocr', 'scanned docs', 'scanned images', 'scanned pdf', 'scrap images',
+																																																		 'scraping images', 'OCR-based screen scraping', 'screen scraping ocr'] },
+  { name: "Email Automation", url: "./projects/rpa.html#rpa-email-auto", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes',
+																																								  'Desktop Outlook Application', 'Outlook Emails', 'Email Sender', 'Email Management', 'Email Operations', 'Email Notifications',
+																																								  'Mailing Activities', 'Send Emails', 'Sending Emails', 'Saving Emails', 'Save Emails', 'Email Automation Reports', 'Email mgmt'] }
 	// Add more projects here
 ];
 
