@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Maxine's Tech Gallery</title>
+		<title>Machine Learning Projects | Maxine's Tech Gallery</title>
 		<link rel='icon' type='image/x-icon' href='../assets/images/MyProfileImage_3.ico'>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -46,23 +46,16 @@
 								<section>
 
 									<div class="row">
-										<!-- SQLZOO -->
 										<div id="sqlzoo" class="col-6 col-12-small" style='margin-bottom:70px'>
-											<div class="image-container">
-												<a href="https://github.com/MaxineXiong/SQLZOO_solutions.git" target='_blank'>
-													<span class="image fit"><img src="../assets/images/sqlzoo.png"></span>
-												</a>
-											</div>
+											<span class="image fit"><img src="../assets/images/sqlzoo.png" alt="" /></span>
 											<!-- project header -->
 											<h3 style='height:1.5em'>SQLZOO Solutions</h3>
 											<!-- skill tags -->
 											<ul class="actions">
-												<li><a href="https://www.mysql.com/" target="_blank" class="button primary small"
-													title='Click to learn more'>MySQL</a></li>
-												<li><a href="#" class="button primary small" style='background-color:#a16fcf'>SQL</a></li>
+												<li><a href="../projects/sql.html" class="button primary small">SQL</a></li>
 											</ul>
 											<!-- project description -->
-											<p style='height:18em'>This repository contains my solutions to the challenging SQL exercises from SQLZOO.
+											<p style='height:15em'>This repository contains my solutions to the challenging SQL exercises from SQLZOO.
 												SQLZOO is an interactive platform that provides a hands-on learning experience for SQL beginners and
 												enthusiasts. Each exercise presents a real-world scenario and challenges you to write SQL queries to retrieve
 												and manipulate data from a given database. In this repository, you will find my solutions to some SQL exercises
@@ -73,36 +66,6 @@
 												<li><a href="https://github.com/MaxineXiong/SQLZOO_solutions.git" target='_blank' class="button big">View</a></li>
 											</ul>
 										</div>
-
-
-										<!-- LeetCode SQL -->
-										<div id="leetcode-sql" class="col-6 col-12-small" style='margin-bottom:70px'>
-											<div class="image-container">
-												<a href="https://github.com/MaxineXiong/My-LeetCode-SQL-Exercises.git" target='_blank'>
-													<span class="image fit"><img src="../assets/images/leetcode-sql.png"></span>
-												</a>
-											</div>
-											<!-- project header -->
-											<h3 style='height:1.5em'>LeetCode SQL Solutions</h3>
-											<!-- skill tags -->
-											<ul class="actions">
-												<li><a href="https://www.mysql.com/" target="_blank" class="button primary small"
-													title='Click to learn more'>MySQL</a></li>
-												<li><a href="#" class="button primary small" style='background-color:#a16fcf'>SQL</a></li>
-												<li><a href="https://leetcode.com/problemset/database/" target="_blank" class="button primary small"
-													title='Click to learn more'>LeetCode</a></li>
-											</ul>
-											<!-- project description -->
-											<p style='height:18em'>This repository contains a curated collection of my solutions to challenging SQL problems sourced from LeetCode. Each solution
-												showcases my proficiency in SQL querying, database manipulation, and efficient problem-solving. Organized by specific LeetCode problems,
-												this collection offers a glimpse into my approach to tackling complexity and delivering effective results. </p>
-											<!-- view button -->
-											<ul class="actions">
-												<li><a href="https://github.com/MaxineXiong/My-LeetCode-SQL-Exercises.git" target='_blank' class="button big">View</a></li>
-											</ul>
-										</div>
-
-
 									</div>
 								</section>
 						</div>
@@ -120,12 +83,11 @@
 										<li><a href='../index.html' style='margin-top:-5px;margin-bottom:13.5px;font-family:"Open Sans", sans-serif;font-size:11pt;color: #7f888f'><< Back to Home Page</a></li>
 									</ul>
 									<header class="major">
-											<h2 style='margin-bottom:2em'><strong>SQL Projects</strong></h2>
+											<h2 style='margin-bottom:2em'><strong>Machine Learning Projects</strong></h2>
 									</header>
 									<ul>
 										<ul>
 											<li><a href="#sqlzoo">SQLZOO Solutions</a></li>
-											<li><a href="#leetcode-sql">LeetCode SQL Solutions</a></li>
 										</ul>
 									</ul>
 								</nav>
@@ -134,28 +96,28 @@
 								<!-- Footer -->
 								<footer id="footer">
 									<div style="display: flex; align-items: center;">
-										<label for="dropdown" style="width:50%; font-size:18px; color:#9fa3a6; margin: 0.1em 0.1em 0.1em 0.1em">THEME</label>
-										<select id="dropdown" style="width:50%; background-color:#313338;">
-											<option value="light-mode" style='background-color:#313338'>Light Mode</option>
-											<option value="dark-mode" style='background-color:#313338' selected>Dark Mode</option>
-										</select>
+								    <label for="dropdown" style="width:50%; font-size:18px; color:#9fa3a6; margin: 0.1em 0.1em 0.1em 0.1em">THEME</label>
+								    <select id="dropdown" style="width:50%">
+								      <option value="light-mode" selected>Light Mode</option>
+								      <option value="dark-mode">Dark Mode</option>
+								    </select>
 										<!-- JS part for THEME selection -->
 										<script>
-											const dropdown = document.getElementById("dropdown");
+										  const dropdown = document.getElementById("dropdown");
 
-											dropdown.addEventListener("change", function() {
-												if (dropdown.value === "light-mode") {
-													window.location.href = "../../projects/sql.html";
-												}
-											});
+										  dropdown.addEventListener("change", function() {
+										    if (dropdown.value === "dark-mode") {
+										      window.location.href = "../../projects/machine-learning.html";
+										    }
+										  });
 										</script>
-									</div>
+								  </div>
 									<br><br>
 									<p class="copyright"><i>&copy; 2023 XIONG, CHUCHU All Rights Reserved.</i></p>
 									<!-- <p style='font-size:11px;color:#9fa3a6'>
 										This website and its content are protected by copyright. All materials, including images, illustrations, designs,
-										icons, photographs, written and other materials that appear on this website are owned by CHUCHU XIONG, unless
-										otherwise stated, and are protected by applicable intellectual property laws.
+								    icons, photographs, written and other materials that appear on this website are owned by CHUCHU XIONG, unless
+								    otherwise stated, and are protected by applicable intellectual property laws.
 									</p> -->
 								</footer>
 

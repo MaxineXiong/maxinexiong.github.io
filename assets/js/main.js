@@ -373,6 +373,7 @@ document.addEventListener("click", function(event) {
 
 
 
+
 // Back to top text
 	const backToTopText = document.getElementById("backToTopText");
 

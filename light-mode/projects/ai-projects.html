@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Maxine's Tech Gallery</title>
+		<title>AI Projects | Maxine's Tech Gallery</title>
 		<link rel='icon' type='image/x-icon' href='../assets/images/MyProfileImage_3.ico'>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -73,7 +73,7 @@
 															title = 'Click to explore all projects involving Python'>Python</a></li>
 												<li><a href="./html-css.html" class="button primary skill small"
 															title='Click to explore all web application projects'>Web App</a></li>
-												<li><a href="#" class="button primary skill small" style='background-color:#a16fcf'>AI Projects</a></li>
+												<li><a href="#" class="button primary skill small" style='background-color:#907f85'>AI Projects</a></li>
 											</ul>
 											<!-- project description -->
 											<p style='height:19em'>This repository hosts a collection of custom web applications powered by
@@ -111,8 +111,8 @@
 															class="button primary small" title='Click to learn more'>pyttsx3</a></li>
 												<li><a href="./python.html" class="button primary skill small"
 															title = 'Click to explore all projects involving Python'>Python</a></li>
-												<li><a href="#gpt-desktop" class="button primary small" style='background-color:#7289DA'>Desktop App</a></li>
-												<li><a href="#" class="button primary skill small" style='background-color:#a16fcf'>AI Projects</a></li>
+												<li><a href="#gpt-desktop" class="button primary small" style='background-color:#f56a6a'>Desktop App</a></li>
+												<li><a href="#" class="button primary skill small" style='background-color:#907f85'>AI Projects</a></li>
 											</ul>
 											<!-- project description -->
 											<p style='height:19em'>This user-friendly GUI application allows you to have natural language conversations with ChatGPT
@@ -125,6 +125,7 @@
 												<li><a href="https://github.com/MaxineXiong/ChatGPT-3.5-Desktop-App.git" target='_blank' class="button big">View</a></li>
 											</ul>
 										</div>
+
 
 										<!-- ImageAI Computer Vision Flask Apps project -->
 										<div id="imageai-flask" class="col-6 col-12-small" style='margin-bottom:70px'>
@@ -143,15 +144,15 @@
 															title='Click to learn more'>Flask</a></li>
 												<li><a href="https://pandas.pydata.org/" target="_blank" class="button primary small"
 															title='Click to learn more'>Pandas</a></li>
-												<li><a href="#imageai-flask" class="button primary small" style='background-color:#7289DA'>Computer Vision</a></li>
+												<li><a href="#imageai-flask" class="button primary small" style='background-color:#f56a6a'>Computer Vision</a></li>
 												<li><a href="https://html.spec.whatwg.org/" class="button primary small" target="_blank"
 															title='Click to learn more'>HTML5</a></li>
 												<li><a href="https://www.css3.com/" target="_blank" class="button primary small"
 															title='Click to learn more'>CSS3</a></li>
-												<li><a href="#imageai-flask" class="button primary small" style='background-color:#7289DA'>Data Analysis</a></li>
+												<li><a href="#imageai-flask" class="button primary small" style='background-color:#f56a6a'>Data Analysis</a></li>
 												<li><a href="./python.html" class="button primary skill small"
 															title = 'Click to explore all projects involving Python'>Python</a></li>
-												<li><a href="#" class="button primary skill small" style='background-color:#a16fcf'>AI Projects</a></li>
+												<li><a href="#" class="button primary skill small" style='background-color:#907f85'>AI Projects</a></li>
 											</ul>
 											<!-- project description -->
 											<p style='height:21em'>This project showcases two Flask applications that utilize ImageAI's image prediction algorithms and object detection models.
@@ -187,7 +188,7 @@
 															title='Click to learn more'>Flappy Bird</a></li>
 												<li><a href="./python.html" class="button primary skill small"
 															title = 'Click to explore all projects involving Python'>Python</a></li>
-												<li><a href="#" class="button primary skill small" style='background-color:#a16fcf'>AI Projects</a></li>
+												<li><a href="#" class="button primary skill small" style='background-color:#907f85'>AI Projects</a></li>
 											</ul>
 											<!-- project description -->
 											<p style='height:21em'>The project showcases the implementation of the NEAT algorithm in Python to play a Flappy Bird-like game. It
@@ -238,28 +239,28 @@
 								<!-- Footer -->
 								<footer id="footer">
 									<div style="display: flex; align-items: center;">
-										<label for="dropdown" style="width:50%; font-size:18px; color:#9fa3a6; margin: 0.1em 0.1em 0.1em 0.1em">THEME</label>
-										<select id="dropdown" style="width:50%; background-color:#313338;">
-											<option value="light-mode" style='background-color:#313338'>Light Mode</option>
-											<option value="dark-mode" style='background-color:#313338' selected>Dark Mode</option>
-										</select>
+								    <label for="dropdown" style="width:50%; font-size:18px; color:#9fa3a6; margin: 0.1em 0.1em 0.1em 0.1em">THEME</label>
+								    <select id="dropdown" style="width:50%">
+								      <option value="light-mode" selected>Light Mode</option>
+								      <option value="dark-mode">Dark Mode</option>
+								    </select>
 										<!-- JS part for THEME selection -->
 										<script>
-											const dropdown = document.getElementById("dropdown");
+										  const dropdown = document.getElementById("dropdown");
 
-											dropdown.addEventListener("change", function() {
-												if (dropdown.value === "light-mode") {
-													window.location.href = "../../projects/ai-projects.html";
-												}
-											});
+										  dropdown.addEventListener("change", function() {
+										    if (dropdown.value === "dark-mode") {
+										      window.location.href = "../../projects/ai-projects.html";
+										    }
+										  });
 										</script>
-									</div>
+								  </div>
 									<br><br>
 									<p class="copyright"><i>&copy; 2023 XIONG, CHUCHU All Rights Reserved.</i></p>
 									<!-- <p style='font-size:11px;color:#9fa3a6'>
 										This website and its content are protected by copyright. All materials, including images, illustrations, designs,
-										icons, photographs, written and other materials that appear on this website are owned by CHUCHU XIONG, unless
-										otherwise stated, and are protected by applicable intellectual property laws.
+								    icons, photographs, written and other materials that appear on this website are owned by CHUCHU XIONG, unless
+								    otherwise stated, and are protected by applicable intellectual property laws.
 									</p> -->
 								</footer>
 
