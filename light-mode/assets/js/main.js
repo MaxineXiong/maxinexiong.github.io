@@ -303,7 +303,7 @@ const projects = [
 	{ name: "Scraping Scanned Documents using OCR", url: "./projects/rpa.html#rpa-ocr-scrap", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Classic Design', 'UiPath Modern Design',
 																																																		 'optical character recognition', 'screen scraping with ocr', 'scanned docs', 'scanned documents', 'scanned PDF receipts', 'scanned receipts', 'scanned images', 'scanned pdf', 'scrap images',
 																																																		 'scraping images', 'OCR-based screen scraping', 'OCR-based scraping', 'screen scraping ocr'] },
-  { name: "Email Automation", url: "./projects/rpa.html#rpa-email-auto", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes',
+  { name: "Outlook Email Automation", url: "./projects/rpa.html#rpa-email-outlook", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes',
 																																								  'Desktop Outlook Application', 'Outlook Emails', 'Email Sender', 'Email Management', 'Email Operations', 'Email Notifications',
 																																								  'Mailing Activities', 'Send Emails', 'Sending Emails', 'Saving Emails', 'Save Emails', 'Email Automation Reports', 'Email mgmt'] }
 	// Add more projects here
