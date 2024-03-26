@@ -304,8 +304,13 @@ const projects = [
 																																																		 'optical character recognition', 'screen scraping with ocr', 'scanned docs', 'scanned documents', 'scanned PDF receipts', 'scanned receipts', 'scanned images', 'scanned pdf', 'scrap images',
 																																																		 'scraping images', 'OCR-based screen scraping', 'OCR-based scraping', 'screen scraping ocr'] },
   { name: "Outlook Email Automation", url: "./projects/rpa.html#rpa-email-outlook", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes',
-																																								  'Desktop Outlook Application', 'Outlook Emails', 'Email Sender', 'Email Management', 'Email Operations', 'Email Notifications',
-																																								  'Mailing Activities', 'Send Emails', 'Sending Emails', 'Saving Emails', 'Save Emails', 'Email Automation Reports', 'Email mgmt'] }
+																																												     'Desktop Outlook Application', 'Outlook Emails', 'Email Sender', 'Email Management', 'Email Operations', 'Email Notifications',
+																																												     'Mailing Activities', 'Send Emails', 'Sending Emails', 'Saving Emails', 'Save Emails', 'Email Automation Reports', 'Email mgmt'] },
+	{ name: "Gmail Automation", url: "./projects/rpa.html#rpa-email-google", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes',
+																																								    'Gmail', 'Google Emails', 'Email Sender', 'Email Management', 'Email Operations', 'Email Notifications',
+																																								    'Mailing Activities', 'Read Emails', 'Reading Emails', 'Send Emails', 'Sending Emails', 'Saving Emails', 'Save Emails', 'Delete Emails', 'Deleting Emails',
+																																										'Forward Emails', 'Forwarding Emails', 'Save Email Attachments', 'Saving Attachments', 'Save Attachments', 'Saving Email Attachments', 'Move Emails', 'Moving Emails',
+																																										'Email Automation Reports', 'Email mgmt'] }
 	// Add more projects here
 ];
 
