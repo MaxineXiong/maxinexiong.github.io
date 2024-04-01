@@ -310,7 +310,10 @@ const projects = [
 																																								    'Gmail', 'Google Emails', 'Email Sender', 'Email Management', 'Email Operations', 'Email Notifications',
 																																								    'Mailing Activities', 'Read Emails', 'Reading Emails', 'Send Emails', 'Sending Emails', 'Saving Emails', 'Save Emails', 'Delete Emails', 'Deleting Emails',
 																																										'Forward Emails', 'Forwarding Emails', 'Save Email Attachments', 'Saving Attachments', 'Save Attachments', 'Saving Email Attachments', 'Move Emails', 'Moving Emails',
-																																										'Email Automation Reports', 'Email mgmt'] }
+																																										'Email Automation Reports', 'Email mgmt'] },
+	{ name: "Coronavirus Stat-Alert Bot", url: "./projects/rpa.html#rpa-covid-alert", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design',
+																																								    				 'Desktop Outlook Application', 'Outlook Emails', 'Email Sender', 'data scraping', 'table extraction', 'data table', 'datatable',
+																																													   'COVID-19 stats', 'COVID-19 data', 'coronavirus alert', 'COVID-19 alert'] }
 	// Add more projects here
 ];
 
