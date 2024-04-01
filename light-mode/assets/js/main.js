@@ -320,7 +320,9 @@ const projects = [
 	{ name: "Image Background Remover Bot", url: "./projects/rpa.html#rpa-bg-remover", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design',
 																																															'remove background', 'remove image background', 'image background removal', 'file handling', 'move files'] },
 	{ name: "Calendar Picker Bot", url: "./projects/rpa.html#rpa-bg-remover", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design',
-																																										 'pick dates', 'dates picker', 'check-in date', 'check-out date', 'booking.com', 'twerk selectors', 'fine-tune selectors'] }
+																																										 'pick dates', 'dates picker', 'check-in date', 'check-out date', 'booking.com', 'twerk selectors', 'fine-tune selectors'] },
+	{ name: "Roulette Bot", url: "./projects/rpa.html#rpa-roulette", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design',
+																																						'Roulette gameplay', 'Martingale Roulette Strategy', 'Bet Even', 'Online Roulette Game', 'European Roulette Game'] }
 	// Add more projects here
 ];
 
