@@ -313,7 +313,10 @@ const projects = [
 																																										'Email Automation Reports', 'Email mgmt'] },
 	{ name: "Coronavirus Stat-Alert Bot", url: "./projects/rpa.html#rpa-covid-alert", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design',
 																																								    				 'Desktop Outlook Application', 'Outlook Emails', 'Email Sender', 'data scraping', 'table extraction', 'data table', 'datatable',
-																																													   'COVID-19 stats', 'COVID-19 data', 'coronavirus alert', 'COVID-19 alert'] }
+																																													   'COVID-19 stats', 'COVID-19 data', 'coronavirus alert', 'COVID-19 alert'] },
+	{ name: "IP Address to Location Converter Bot", url: "./projects/rpa.html#rpa-ip-converter", labels: ['UiPath RPA', 'Robotic Automation Process', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design',
+																																																				'IP converter', 'IP Lookup', 'Data Scraping', 'Excel Output', 'Writing into Excel', 'Write into Excel',
+																																																				'Excel population', 'populating excel', 'populate excel', 'excel sheet population'] }
 	// Add more projects here
 ];
 
