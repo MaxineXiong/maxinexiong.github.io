@@ -112,10 +112,10 @@ a {
   -ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
   /* border-bottom: dotted 1px; */
-  color: #7289DA;
+  color: #6699FF;
   text-decoration: none; }
   a:hover {
-    border-bottom-color: #7289DA;
+    border-bottom-color: #6699FF;
     color: #6699FF !important;}
     a:hover strong {
       color: inherit; }
@@ -998,13 +998,13 @@ header p {
   text-transform: uppercase; }
 
 header.major > :last-child {
-  border-bottom: solid 3px #7289DA;
+  border-bottom: solid 3px #6699FF;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; }
 
 header.profile > :last-child {
-  border-bottom: solid 3px #7289DA;
+  border-bottom: solid 3px #6699FF;
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.5em 0; ;
@@ -1067,8 +1067,8 @@ textarea {
   input[type="url"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #7289DA;
-    box-shadow: 0 0 0 1px #7289DA; }
+    border-color: #6699FF;
+    box-shadow: 0 0 0 1px #6699FF; }
 
 select {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(210, 215, 217, 0.75)' /%3E%3C/svg%3E");
@@ -1156,8 +1156,8 @@ input[type="radio"] {
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #7289DA;
-    box-shadow: 0 0 0 1px #7289DA; }
+    border-color: #6699FF;
+    box-shadow: 0 0 0 1px #6699FF; }
 
 input[type="checkbox"] + label:before {
   border-radius: 0.375em; }
@@ -1459,7 +1459,7 @@ ul.contact {
       font-family: 'Font Awesome 5 Free';
       font-weight: 400; }
     ul.contact li:before {
-      color: #7289DA;
+      color: #6699FF;
       display: inline-block;
       font-size: 1.5em;
       height: 1.125em;
@@ -1504,7 +1504,7 @@ ul.pagination {
       padding: 0 0.5em;
       text-align: center; }
       ul.pagination li > .page.active {
-        background-color: #7289DA;
+        background-color: #6699FF;
         color: #BABCBE !important; }
         ul.pagination li > .page.active:hover {
           background-color: #f67878; }
@@ -1578,8 +1578,8 @@ button,
   background-color: transparent;
   border-radius: 0.375em;
   border: 0;
-  box-shadow: inset 0 0 0 2px #7289DA;
-  color: #7289DA !important;
+  box-shadow: inset 0 0 0 2px #6699FF;
+  color: #6699FF !important;
   cursor: pointer;
   display: inline-block;
   font-family: "Roboto Slab", serif;
@@ -1640,7 +1640,7 @@ button,
   input[type="button"].primary,
   button.primary,
   .button.primary {
-    background-color: #7289DA;
+    background-color: #6699FF;
     box-shadow: none;
     color: #FFFFFF !important; }
     input[type="submit"].primary:hover,
@@ -1740,7 +1740,7 @@ button,
       text-align: center;
       width: 10em; }
       .features article .icon:before {
-        color: #7289DA;
+        color: #6699FF;
         font-size: 2.75rem;
         position: relative;
         top: 0.05em; }
@@ -2055,7 +2055,7 @@ button,
   }
 
     .dropdown-list-item:hover {
-      background-color: #7289DA;
+      background-color: #6699FF;
       color: #FFFFFF;
     }
 
@@ -2221,7 +2221,7 @@ button,
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  border-bottom: solid 5px #7289DA;
+  border-bottom: solid 5px #6699FF;
   padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
@@ -2442,5 +2442,5 @@ button,
 }
 
 #backToTopText:hover {
-  background-color: rgba(114, 137, 218, 0.7);
+  background-color: rgba(102, 153, 255, 0.6);
 }
