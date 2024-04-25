@@ -18,7 +18,7 @@ Welcome to the GitHub repository for my personal portfolio website - [**Maxine's
 
 Click the badge below to visit my personal portfolio website:
 
-[![VIEW - Maxine's Tech Gallery](https://img.shields.io/badge/VIEW-Maxine's_Tech_Gallery-7289DA?style=for-the-badge)](https://maxinexiong.github.io/)
+[![VIEW - Maxine's Tech Gallery](https://img.shields.io/badge/VIEW-Maxine's_Tech_Gallery-6699FF?style=for-the-badge)](https://maxinexiong.github.io/)
 
 <br/>
 
