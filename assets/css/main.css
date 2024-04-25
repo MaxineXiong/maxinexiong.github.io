@@ -116,7 +116,7 @@ a {
   text-decoration: none; }
   a:hover {
     border-bottom-color: #7289DA;
-    color: #7289DA !important;}
+    color: #6699FF !important;}
     a:hover strong {
       color: inherit; }
 
@@ -1598,14 +1598,14 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    background-color: rgb(114, 137, 218, 0.15);
-    box-shadow: 0 0 10px 5px #7289DA;}
+    background-color: rgb(102, 153, 255, 0.15);
+    box-shadow: 0 0 10px 5px #6699FF;}
   input[type="submit"]:active,
   input[type="reset"]:active,
   input[type="button"]:active,
   button:active,
   .button:active {
-    background-color: rgb(114, 137, 218, 0.5)}
+    background-color: rgb(102, 153, 255, 0.35)}
   input[type="submit"].icon:before,
   input[type="reset"].icon:before,
   input[type="button"].icon:before,
@@ -2360,7 +2360,7 @@ button,
     font-size: 1.16em;
     padding: 0.625em 0; }
     #menu ul a:hover, #menu ul span:hover {
-      color: #7289DA;
+      color: #6699FF;
       /* font-size: 1.20em; */
       /* margin-bottom: 13.2px; /*-13.0px */ */
       transition: all 0.35s ease;}
@@ -2393,7 +2393,7 @@ button,
         position: absolute;
         right: 0; }
       #menu ul a.opener:hover:before, #menu ul span.opener:hover:before {
-        color: #7289DA; }
+        color: #6699FF; }
       #menu ul a.opener.active + ul, #menu ul span.opener.active + ul {
         display: block; }
       #menu ul a.opener.active:before, #menu ul span.opener.active:before {
@@ -2442,5 +2442,5 @@ button,
 }
 
 #backToTopText:hover {
-  background-color: rgb(114, 137, 218, 0.5);
+  background-color: rgba(114, 137, 218, 0.7);
 }
