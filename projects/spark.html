@@ -114,6 +114,11 @@
 						</div>
 					</div>
 
+
+				<!-- Back to Top Button -->
+					<span id="backToTopTextForProjects">Back to Top ↑</span>
+
+
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
@@ -171,20 +176,43 @@
 			</div>
 
 		<!-- Scripts -->
-		<!-- Smooth scrolling effect with listed items on side navigation pane -->
-			<script>
-				const menuLinks = document.querySelectorAll("#menu a[href^='#']");
+		<script>
 
-				menuLinks.forEach(link => {
-					link.addEventListener("click", function(event) {
-						event.preventDefault();
-						const targetSectionId = link.getAttribute("href");
-						const targetSection = document.querySelector(targetSectionId);
+		//Smooth scrolling effect with listed items on side navigation pane
+			const menuLinks = document.querySelectorAll("#menu a[href^='#']");
 
-						targetSection.scrollIntoView({ behavior: "smooth" });
-					});
+			menuLinks.forEach(link => {
+				link.addEventListener("click", function(event) {
+					event.preventDefault();
+					const targetSectionId = link.getAttribute("href");
+					const targetSection = document.querySelector(targetSectionId);
+
+					targetSection.scrollIntoView({ behavior: "smooth" });
 				});
-			</script>
+			});
+
+
+	 //Back to top button
+			const backToTopTextForProjects = document.getElementById("backToTopTextForProjects");
+
+			// Show/hide the text based on scroll position
+			window.addEventListener("scroll", function() {
+				if (window.scrollY > 300) {
+					backToTopTextForProjects.style.display = "inline-block";
+				} else {
+					backToTopTextForProjects.style.display = "none";
+				}
+			});
+
+			// Scroll to the top when the text is clicked
+			backToTopTextForProjects.addEventListener("click", function() {
+				window.scrollTo({
+					top: 0,
+					behavior: "smooth"
+				});
+			});
+
+		</script>
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
 			<script src="../assets/js/breakpoints.min.js"></script>

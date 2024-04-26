@@ -2427,7 +2427,7 @@ button,
 
 
 
-#backToTopText {
+#backToTopText, #backToTopTextForProjects {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -2441,6 +2441,6 @@ button,
   cursor: pointer;
 }
 
-#backToTopText:hover {
+#backToTopText:hover, #backToTopTextForProjects:hover {
   background-color: rgba(102, 153, 255, 0.6);
 }

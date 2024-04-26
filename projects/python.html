@@ -314,6 +314,11 @@
 						</div>
 					</div>
 
+
+				<!-- Back to Top Button -->
+					<span id="backToTopTextForProjects">Back to Top ↑</span>
+
+
 				<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
@@ -377,8 +382,9 @@
 			</div>
 
 		<!-- Scripts -->
-		<!-- Smooth scrolling effect with listed items on side navigation pane -->
 			<script>
+
+			//Smooth scrolling effect with listed items on side navigation pane
 				const menuLinks = document.querySelectorAll("#menu a[href^='#']");
 
 				menuLinks.forEach(link => {
@@ -390,6 +396,28 @@
 						targetSection.scrollIntoView({ behavior: "smooth" });
 					});
 				});
+
+
+		 //Back to top button
+				const backToTopTextForProjects = document.getElementById("backToTopTextForProjects");
+
+				// Show/hide the text based on scroll position
+				window.addEventListener("scroll", function() {
+					if (window.scrollY > 300) {
+						backToTopTextForProjects.style.display = "inline-block";
+					} else {
+						backToTopTextForProjects.style.display = "none";
+					}
+				});
+
+				// Scroll to the top when the text is clicked
+				backToTopTextForProjects.addEventListener("click", function() {
+					window.scrollTo({
+						top: 0,
+						behavior: "smooth"
+					});
+				});
+
 			</script>
 			<script src="../assets/js/jquery.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
