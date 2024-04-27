@@ -1007,7 +1007,7 @@ header.profile > :last-child {
   border-bottom: solid 3px #f56a6a;
   display: inline-block;
   margin: 0 0 2em 0;
-  padding: 0 0.75em 0.5em 0; ;
+  padding: 0 0 0 0; ;
 }
 
 
@@ -2077,6 +2077,44 @@ button,
   width: 26em; }
   #sidebar h2 {
     font-size: 2.0em; }
+
+  #sidebar .inner {
+      position: fixed;        /* Keeps the sidebar fixed during page scroll */
+      top: 0;                 /* Aligns the top of the sidebar with the top of the viewport */
+      left: 0;                /* Aligns the sidebar to the left side of the viewport */
+      height: calc(100vh - 2.1em);          /* Makes the sidebar full viewport height */
+      width: 26em;            /* Maintains a consistent width */
+      overflow-y: auto;       /* Adds a scrollbar when the content overflows vertically */
+      overflow-x: hidden;
+      z-index: 10;            /* Ensures the sidebar stays above other content but below modal/toggle elements */
+      padding: 2.22222em;     /* Adjust padding if necessary */
+      background-color: #f5f6f7; /* Ensure background color is consistent */
+      box-sizing: border-box; /* Ensures padding doesn't affect width calculations */
+  }
+  /* Styling the scrollbar track (part the thumb moves within) */
+  #sidebar .inner::-webkit-scrollbar-track {
+      background-color: #f5f6f7; /* Optional: can match the sidebar background */
+      border-radius: 10px; /* Rounded corners for the track */
+  }
+  /* Styling the scrollbar thumb (part that is draggable) */
+  #sidebar .inner::-webkit-scrollbar-thumb {
+      background-color: #dddddd; /* Subtle grey, you can choose any color */
+      border-radius: 10px; /* Rounded corners for the thumb */
+      border: 3px solid #f5f6f7; /* Same as the track background to create "floating" effect */
+  }
+  /* Styling the scrollbar itself (width, and other properties) */
+  #sidebar .inner::-webkit-scrollbar {
+      width: 8px; /* Thinner than default */
+      height: 8px; /* For horizontal scrollbars if any */
+  }
+  /* Firefox uses the scrollbar-width and scrollbar-color properties */
+  @supports (-moz-appearance: none) {
+    #sidebar .inner {
+        scrollbar-width: thin; /* "auto" or "thin" */
+        scrollbar-color: #dddddd #f5f6f7; /* thumb and track color */
+    }
+  }
+
   #sidebar > .inner {
     padding: 2.22222em 2.22222em 2.44444em 2.22222em ;
     position: relative;
