@@ -1629,9 +1629,6 @@ table {
     .button-container {
         display: none;
     }
-    .view-all-button {
-      text-align: center;
-    }
 }
 /* Ensure it's visible on screens larger than 769px wide*/
 @media screen and (min-width: 769px) {
