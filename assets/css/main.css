@@ -1574,7 +1574,7 @@ table {
       border-top: 0; }
 
 /* Button */
-.button-container, .link-container {
+.button-container, .link-container, .view-all-button {
   text-align: left; /* Aligns the button/link to the left */
   margin-bottom: 1.6em;
 }
@@ -1624,6 +1624,21 @@ table {
   bottom: -12px;
   border-bottom: 2px solid #6699FF;
 } */
+/* Hide the button on screens smaller than 768px wide */
+@media screen and (max-width: 768px) {
+    .button-container {
+        display: none;
+    }
+    .view-all-button {
+      text-align: center;
+    }
+}
+/* Ensure it's visible on screens larger than 769px wide*/
+@media screen and (min-width: 769px) {
+    .button-container {
+        display: block;
+    }
+}
 
 input[type="submit"],
 input[type="reset"],
