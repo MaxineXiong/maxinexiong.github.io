@@ -135,7 +135,9 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Slab", serif;
   font-weight: 700;
   line-height: 1.5;
-  margin: 0 0 1em 0; }
+  margin: 0 0 1em 0;}
+h2 {
+  letter-spacing: 2px;}
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none;
@@ -1426,14 +1428,23 @@ ul.download {
 ul.icons {
   cursor: default;
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 18px;
+  margin: -3px 0px -29px 0px;
+  text-align: center;}
   ul.icons li {
     display: inline-block;
     padding: 0 1em 0 0; }
     ul.icons li:last-child {
       padding-right: 0; }
     ul.icons li .icon {
-      color: inherit; }
+      color: inherit;
+      opacity: 1; /* Ensures icons are fully visible */
+      visibility: visible; /* Ensures icons are not hidden */
+    }
       ul.icons li .icon:before {
         font-size: 1.25em; }
 
@@ -1562,6 +1573,57 @@ table {
       border-top: 0; }
 
 /* Button */
+.button-container, .link-container {
+  text-align: right; /* Aligns the button/link to the right */
+  margin-bottom: 1.6em;
+}
+.view-all-link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 2.2px;
+  /* color: #BABCBE;  */
+  color: #dddddd;
+  border: none; /* Removes any default browser styling */
+  background-color: transparent; /* Starts with a transparent background */
+  padding: 0.5em 1em; /* Adequate padding */
+  padding-left: 0.75em;
+  padding-right: 0em;
+  text-decoration: none; /* Removes underline */
+  border-bottom: 3px solid #6699FF; /* Maintains the bottom border */
+  position: relative; /* Required for positioning the pseudo-element */
+  overflow: hidden; /* Ensures no overflow from pseudo-elements */
+  transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+.view-all-link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(102, 153, 255, 0), rgba(102, 153, 255, 0.2), rgba(102, 153, 255, 0));
+  opacity: 0; /* Make it fully transparent initially */
+  transition: left 0.3s ease-out, opacity 0.3s ease-out; /* Animate both left position and opacity */
+}
+
+.view-all-link:hover, .view-all-link:focus {
+  text-shadow: 0 0 0 rgba(102, 153, 255, 0.9); /* Enhances the glow */
+}
+
+.view-all-link:hover::before, .view-all-link:focus::before {
+  left: 0; /* Slide the gradient across the button */
+  opacity: 1; /* Make the gradient visible during the hover */
+}
+/* .view-all-link::after {
+  content: '';
+  position: absolute;
+  left: -1.2em;
+  right: 0;
+  bottom: -12px;
+  border-bottom: 2px solid #6699FF;
+} */
+
 input[type="submit"],
 input[type="reset"],
 input[type="button"],
@@ -1571,10 +1633,10 @@ button,
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
-  -moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  -ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  -moz-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  -ms-transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
   background-color: transparent;
   border-radius: 0.375em;
   border: 0;
@@ -1704,7 +1766,7 @@ button,
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 0 0 4em -3em;
+  margin: 0 0 3.3em -3em;
   width: calc(100% + 3em); }
   .features article {
     -moz-align-items: center;
@@ -2387,7 +2449,7 @@ button,
   font-weight: 400;
   letter-spacing: 0.075em;
   list-style: none;
-  margin-bottom: 0;
+  margin-bottom: -1.6em;
   padding: 0;
   text-transform: none; }
   #menu ul a, #menu ul span {
@@ -2397,11 +2459,13 @@ button,
     display: block;
     font-size: 1.16em;
     padding: 0.625em 0; }
-    #menu ul a:hover, #menu ul span:hover {
+    #menu ul a:hover , #menu ul span:hover {
       color: #6699FF;
-      /* font-size: 1.20em; */
-      /* margin-bottom: 13.2px; /*-13.0px */ */
-      transition: all 0.35s ease;}
+      transition: all 0.3s ease;}
+    #menu ul:not(.icons) a:hover, #menu ul:not(.icons) span:hover {
+      color: #6699FF;
+      background: linear-gradient(to right, rgba(102, 153, 255, 0.2), rgba(102, 153, 255, 0.1), rgba(102, 153, 255, 0));;
+      transition: all 0.2s ease;}
     #menu ul a.opener, #menu ul span.opener {
       -moz-transition: color 0.2s ease-in-out;
       -webkit-transition: color 0.2s ease-in-out;
@@ -2464,21 +2528,49 @@ button,
     padding-top: 0; }
 
 
-
-#backToTopText, #backToTopTextForProjects {
+/* Back to Top button */
+.back-to-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  padding: 10px 20px;
-  font-size: 1em;
+  bottom: 2px;
+  right: 2px;
+  padding: 0px 21px;
+  font-size: 30px; /* Using pixels for consistency */
   font-family: "Open Sans", sans-serif;
-  background-color: rgba(211, 211, 222, 0.5);
-  color: #ffffff;
-  border-radius: 5px;
+  background-color: rgb(49, 51, 56, 0.5);
+  color: #dddddd;
+  border-radius: 50%; /* circle shape */
   cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 60px; /* Fixed width for a circular shape */
+  height: 60px; /* Fixed height for a circular shape */
+  transition: all 0.5s ease; /* Smooth transition for effects */
+  overflow: hidden; /* Ensures no overflow */
 }
 
-#backToTopText:hover, #backToTopTextForProjects:hover {
-  background-color: rgba(102, 153, 255, 0.6);
+.back-to-top .text {
+  display: none; /* Hide the text by default */
+  white-space: nowrap; /* Ensures the text does not wrap */
+  font-size: 20px; /* Smaller text size when shown */
+  margin-left: 3px; /* space between arrow and text */
+}
+
+.back-to-top:hover, .back-to-top:focus {
+  width: auto; /* Allow the width to expand */
+  padding: 0px 20px; /* More padding when text is visible */
+  border-radius: 35px; /* Less rounded when expanded */
+  background-color: rgb(95, 97, 103, 0.6); /* Highlight color on hover */
+}
+
+.back-to-top:hover .text, .back-to-top:focus .text {
+  display: inline; /* Show the text on hover */
+}
+
+.back-to-top .arrow {
+  transition: transform 0.2s ease; /* Smooth transformation for rotation */
+}
+
+.back-to-top:hover .arrow {
+  transform: rotate(360deg); /* Rotate the arrow icon on hover for a dynamic effect */
 }
