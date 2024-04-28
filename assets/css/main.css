@@ -1574,7 +1574,7 @@ table {
 
 /* Button */
 .button-container, .link-container {
-  text-align: right; /* Aligns the button/link to the right */
+  text-align: left; /* Aligns the button/link to the left */
   margin-bottom: 1.6em;
 }
 .view-all-link {
@@ -2534,7 +2534,7 @@ button,
   bottom: 2px;
   right: 2px;
   padding: 0px 21px;
-  font-size: 30px; /* Using pixels for consistency */
+  font-size: 25px; /* Using pixels for consistency */
   font-family: "Open Sans", sans-serif;
   background-color: rgb(49, 51, 56, 0.5);
   color: #dddddd;
@@ -2543,8 +2543,8 @@ button,
   display: none;
   align-items: center;
   justify-content: center;
-  width: 60px; /* Fixed width for a circular shape */
-  height: 60px; /* Fixed height for a circular shape */
+  width: 50px; /* Fixed width for a circular shape */
+  height: 50px; /* Fixed height for a circular shape */
   transition: all 0.5s ease; /* Smooth transition for effects */
   overflow: hidden; /* Ensures no overflow */
 }
@@ -2552,7 +2552,7 @@ button,
 .back-to-top .text {
   display: none; /* Hide the text by default */
   white-space: nowrap; /* Ensures the text does not wrap */
-  font-size: 20px; /* Smaller text size when shown */
+  font-size: 15px; /* Smaller text size when shown */
   margin-left: 3px; /* space between arrow and text */
 }
 
