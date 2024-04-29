@@ -2547,7 +2547,7 @@ button,
   bottom: 2px;
   right: 2px;
   padding: 0px 21px;
-  font-size: 25px; /* Using pixels for consistency */
+  font-size: 25px;
   font-family: "Open Sans", sans-serif;
   background-color: rgb(49, 51, 56, 0.5);
   color: #dddddd;
@@ -2565,7 +2565,7 @@ button,
 .back-to-top .text {
   display: none; /* Hide the text by default */
   white-space: nowrap; /* Ensures the text does not wrap */
-  font-size: 15px; /* Smaller text size when shown */
+  font-size: 17px; /* Smaller text size when shown */
   margin-left: 3px; /* space between arrow and text */
 }
 
