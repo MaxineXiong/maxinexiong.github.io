@@ -2563,12 +2563,13 @@ button,
 /* Back to Top button */
 .back-to-top {
   position: fixed;
-  bottom: 2px;
-  right: 2px;
-  padding: 0px 21px;
+  bottom: 7px;
+  right: 7px;
+  padding: 6px 20px;
   font-size: 25px;
   font-family: "Open Sans", sans-serif;
-  background-color: rgb(49, 51, 56, 0.5);
+  /* background-color: rgb(49, 51, 56, 0.5); */
+  background-color: rgb(35, 37, 40, 0.5);
   color: #dddddd;
   border-radius: 50%; /* circle shape */
   cursor: pointer;
@@ -2577,32 +2578,28 @@ button,
   justify-content: center;
   width: 50px; /* Fixed width for a circular shape */
   height: 50px; /* Fixed height for a circular shape */
-  transition: all 0.5s ease; /* Smooth transition for effects */
+  transition: all 0.3s ease; /* Smooth transition for effects */
   overflow: hidden; /* Ensures no overflow */
+  font-weight: 550;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Adds a shadow to the border */
 }
 
-.back-to-top .text {
+/* .back-to-top .text {
   display: none; /* Hide the text by default */
-  white-space: nowrap; /* Ensures the text does not wrap */
-  font-size: 17px; /* Smaller text size when shown */
-  margin-left: 3px; /* space between arrow and text */
-}
+  /* white-space: nowrap; /* Ensures the text does not wrap */
+  /* font-size: 17px; /* Smaller text size when shown */
+  /* margin-left: 3px; /* space between arrow and text */
+/* }  */
 
 .back-to-top:hover, .back-to-top:focus {
-  width: auto; /* Allow the width to expand */
-  padding: 0px 20px; /* More padding when text is visible */
+  /* width: auto; /* Allow the width to expand */
+  padding: 6px 20px; /* More padding when text is visible */
   border-radius: 35px; /* Less rounded when expanded */
   background-color: rgb(95, 97, 103, 0.6); /* Highlight color on hover */
+  color: #ffffff;
+  font-weight: bold;
 }
 
-.back-to-top:hover .text, .back-to-top:focus .text {
+/* .back-to-top:hover .text, .back-to-top:focus .text {
   display: inline; /* Show the text on hover */
-}
-
-.back-to-top .arrow {
-  transition: transform 0.2s ease; /* Smooth transformation for rotation */
-}
-
-.back-to-top:hover .arrow {
-  transform: rotate(360deg); /* Rotate the arrow icon on hover for a dynamic effect */
-}
+/* }  */
