@@ -1625,23 +1625,36 @@ table {
   border-bottom: 2px solid #6699FF;
 } */
 
-@media screen and (max-width: 768px) {
-    /* Hide all 'VIEW' buttons on screens smaller than 768px wide */
+@media screen and (max-width: 1280px) {
+    /* Hide all 'VIEW' buttons on screens smaller than 1280px wide */
     .button-container {
         display: none;
     }
-    .view-all-button {
-          margin-top: 10em;
-          margin-bottom: 10em;
-    }
 }
 
-@media screen and (min-width: 769px) {
-    /* Ensure 'VIEW' buttons are visible on screens larger than 769px wide*/
+@media screen and (min-width: 1281px) {
+    /* Ensure 'VIEW' buttons are visible on screens larger than 1281px wide*/
     .button-container {
         display: block;
     }
 }
+@media screen and (max-width: 1280px) {
+    .view-all-button {
+      margin-bottom: 3.5em;
+      margin-top: 3.5em;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 980px) {
+    .view-all-button {
+      font-size: 2.8vw;
+    }
+}
+@media screen and (min-width: 980px) and (max-width: 1280px) {
+    .view-all-button {
+      font-size: 1.38vw;
+    }
+}
+
 
 input[type="submit"],
 input[type="reset"],
