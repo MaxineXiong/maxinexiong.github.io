@@ -1574,7 +1574,7 @@ table {
       border-top: 0; }
 
 /* Button */
-.button-container, .link-container, .view-all-button {
+.button-container, .button-container-home, .link-container, .view-all-button {
   text-align: left; /* Aligns the button/link to the left */
   margin-bottom: 1.6em;
 }
@@ -1627,14 +1627,14 @@ table {
 
 @media screen and (max-width: 1280px) {
     /* Hide all 'VIEW' buttons on screens smaller than 1280px wide */
-    .button-container {
+    .button-container, .button-container-home {
         display: none;
     }
 }
 
 @media screen and (min-width: 1281px) {
     /* Ensure 'VIEW' buttons are visible on screens larger than 1281px wide*/
-    .button-container {
+    .button-container, .button-container-home {
         display: block;
     }
 }
@@ -1654,6 +1654,15 @@ table {
       font-size: 1.38vw;
     }
 }
+@media screen and (min-width: 1681px) {
+    .button-container-home {
+      margin-top: 10em;
+    }
+}
+
+
+
+
 
 
 input[type="submit"],
