@@ -1630,11 +1630,17 @@ table {
         display: none;
     }
 }
-/* Ensure it's visible on screens larger than 769px wide*/
+/* Ensure 'VIEW' buttons are visible on screens larger than 769px wide*/
 @media screen and (min-width: 769px) {
     .button-container {
         display: block;
     }
+}
+@media screen and (max-width: 480px) {
+  .view-all-button {
+        margin-top: 2em;
+        margin-bottom: 2em;
+  }
 }
 
 input[type="submit"],
