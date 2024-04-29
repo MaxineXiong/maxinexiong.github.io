@@ -72,8 +72,11 @@
 					</div>
 
 
-				<!-- Back to Top Button -->
-					<span id="backToTopTextForProjects">Back to Top ↑</span>
+					<!-- Back to Top Button -->
+					<div id="backToTopTextForProjects" class="back-to-top" title='Back to Top'>
+						<span class="arrow">&#10514;</span> <!-- Using a Unicode character for the arrow -->
+						<!-- <span class="text">Back to Top</span> -->
+					</div>
 
 
 				<!-- Sidebar -->
@@ -85,7 +88,7 @@
 								<nav id="menu">
 									<!-- <a href='index.html'><h4 style='margin-top:5px;margin-bottom:3.5em'><< Back to Home Page</h4></a> -->
 									<ul>
-										<li><a href='../index.html' style='margin-top:-5px;margin-bottom:13.5px;font-family:"Open Sans", sans-serif;font-size:11pt;color: #7f888f'><< Back to Home Page</a></li>
+										<li><a href='../index.html' style='margin-top:-5px;margin-bottom:38px;margin-left:0.45em;font-family:"Open Sans", sans-serif;font-size:11pt;color: #7f888f'><< Back to Home Page</a></li>
 									</ul>
 									<header class="major">
 											<h2 style='margin-bottom:2em'><strong>Data Engineering Projects</strong></h2>
@@ -101,29 +104,29 @@
 								<!-- Footer -->
 								<footer id="footer">
 									<div style="display: flex; align-items: center;">
-								    <label for="dropdown" style="width:50%; font-size:18px; color:#9fa3a6; margin: 0.1em 0.1em 0.1em 0.1em">THEME</label>
-								    <select id="dropdown" style="width:50%">
-								      <option value="light-mode" selected>Light Mode</option>
-								      <option value="dark-mode">Dark Mode</option>
-								    </select>
+										<label for="dropdown" style="width:50%; font-size:18px; color:#9fa3a6; margin: 0.1em 0.1em 0.1em 0.1em">THEME</label>
+										<select id="dropdown" style="width:50%; background-color:#FFFFFF;">
+											<option value="light-mode" selected>Light Mode</option>
+											<option value="dark-mode">Dark Mode</option>
+										</select>
 										<!-- JS part for THEME selection -->
 										<script>
-										  const dropdown = document.getElementById("dropdown");
+											const dropdown = document.getElementById("dropdown");
 
-										  dropdown.addEventListener("change", function() {
-										    if (dropdown.value === "dark-mode") {
-										      window.location.href = "../../projects/data-engineering.html";
-										    }
-										  });
+											dropdown.addEventListener("change", function() {
+												if (dropdown.value === "dark-mode") {
+													window.location.href = "../../projects/data-engineering.html";
+												}
+											});
 										</script>
-								  </div>
+									</div>
 									<br><br>
 									<p class="copyright"><i>&copy; 2023 XIONG, CHUCHU All Rights Reserved.</i></p>
-									<!-- <p style='font-size:11px;color:#9fa3a6'>
+									<p style='font-size:11px;color:#9fa3a6'>
 										This website and its content are protected by copyright. All materials, including images, illustrations, designs,
-								    icons, photographs, written and other materials that appear on this website are owned by CHUCHU XIONG, unless
-								    otherwise stated, and are protected by applicable intellectual property laws.
-									</p> -->
+										icons, photographs, written and other materials that appear on this website are owned by CHUCHU XIONG, unless
+										otherwise stated, and are protected by applicable intellectual property laws.
+									</p>
 								</footer>
 
 						</div>
