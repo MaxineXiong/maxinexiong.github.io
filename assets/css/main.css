@@ -2485,7 +2485,7 @@ button,
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  color: #dddddd;
+  color: #c6c6c6;
   font-family: "Roboto Slab", serif;
   font-weight: 400;
   letter-spacing: 0.075em;
@@ -2553,7 +2553,7 @@ button,
   }
 
   #menu > ul > li > ul {
-    color: #9fa3a6;
+    color: #8f9295;
     display: none;
     margin: 0.5em 0 1.5em 0;
     padding-left: 1em; }
