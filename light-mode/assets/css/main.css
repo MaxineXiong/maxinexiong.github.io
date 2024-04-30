@@ -2557,8 +2557,8 @@ button,
     #menu > ul > li > ul a, #menu > ul > li > ul span {
       font-size: 1em; }
     #menu > ul > li > ul > li {
-      margin: 0.125em 0 0 0;
-      padding: 0.125em 0 0 0;
+      margin: 0.2em 0 0 0;
+      padding: 0.2em 0 0 0;
       }
   #menu > ul > li:first-child {
     border-top: 0;
