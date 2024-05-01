@@ -1004,7 +1004,7 @@ header.major > :last-child {
   display: inline-block;
   margin: 0 0 2em 0;
   padding: 0 0.75em 0.75em 0;
-  margin-left: 0.27em;}
+  margin-left: 0em;}
 
 header.profile > :last-child {
   border-bottom: solid 3px #f56a6a;
@@ -2228,7 +2228,7 @@ button,
     width: 26em; }
     #sidebar > .inner > * {
       border-bottom: solid 2px rgba(210, 215, 217, 0.75);
-      margin: 0 0 3.5em 0;
+      margin: 0 0 3.8em 0;
       padding: 0 0 5.5em 0; }
       #sidebar > .inner > * > :last-child {
         margin-bottom: 0; }
@@ -2552,7 +2552,7 @@ button,
   #menu > ul > li > ul {
     color: #9fa3a6;
     display: none;
-    margin: 0.5em 0 1.5em 0;
+    margin: 1.0em 0 1.5em 0;
     padding-left: 1em; }
     #menu > ul > li > ul a, #menu > ul > li > ul span {
       font-size: 1em; }
