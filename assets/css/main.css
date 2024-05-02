@@ -161,21 +161,21 @@ p {
       height: 18em;
     }
   }
-  @media screen and (min-width: 481px) and (max-width: 736px) {
+  @media screen and (min-width: 480.2px) and (max-width: 736px) {
     p.pbi-certs {
-      height: 9em;
+      height: 12em;
     }
     p.tableau-certs {
-      height: 6em;
+      height: 7em;
     }
     p.alteryx-certs {
-      height: 6em;
+      height: 7em;
     }
     p.other-certs {
-      height: 8em;
+      height: 10em;
     }
     p.uipath-certs {
-      height: 11em;
+      height: 15em;
     }
   }
   @media screen and (min-width: 736.2px) and (max-width: 980px) {
