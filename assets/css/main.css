@@ -1378,7 +1378,18 @@ a.image {
     -webkit-transform: scale(1.05);
     -ms-transform: scale(1.05);
     transform: scale(1.05) translateY(-2%);}
-
+    .image-container .hover-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0; /* GIF is initially hidden */
+    }
+    .image-container:hover .hover-image {
+        opacity: 1; /* GIF appears on hover */
+    }
+    .image-container:hover .static-image {
+        opacity: 0; /* Static image disappears on hover */
+    }
 
 
 /* List */
