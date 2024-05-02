@@ -1301,7 +1301,7 @@ ul {
   margin: 0 0 2em 0;
   padding-left: 1em; }
   ul li {
-    padding-left: 0.5em;
+    padding-left: 0em;
     margin-bottom: 0.9em;}
   ul.alt {
     list-style: none;
@@ -1338,7 +1338,7 @@ ul.actions {
   margin-bottom: 0.5em;
   padding-left: 0; }
   ul.actions li {
-    padding: 0 0 1em 1em;
+    padding: 0 0 0em 1em;
     vertical-align: middle;
     }
   ul.actions.special {
