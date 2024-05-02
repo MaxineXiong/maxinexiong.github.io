@@ -129,6 +129,91 @@ em, i {
 
 p {
   margin: 0 0 2em 0; }
+  p.pbi-certs {
+    height: 15em;
+  }
+  p.tableau-certs {
+    height: 9em;
+  }
+  p.alteryx-certs {
+    height: 11em;
+  }
+  p.other-certs {
+    height: 13em;
+  }
+  p.uipath-certs {
+    height: 19em;
+  }
+  @media screen and (max-width: 480px) {
+    p.pbi-certs {
+      height: 14em;
+    }
+    p.tableau-certs {
+      height: 8em;
+    }
+    p.alteryx-certs {
+      height: 9.5em;
+    }
+    p.other-certs {
+      height: 11em;
+    }
+    p.uipath-certs {
+      height: 18em;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 736px) {
+    p.pbi-certs {
+      height: 9em;
+    }
+    p.tableau-certs {
+      height: 6em;
+    }
+    p.alteryx-certs {
+      height: 6em;
+    }
+    p.other-certs {
+      height: 8em;
+    }
+    p.uipath-certs {
+      height: 11em;
+    }
+  }
+  @media screen and (min-width: 736.2px) and (max-width: 980px) {
+    p.pbi-certs {
+      height: 17em;
+    }
+    p.tableau-certs {
+      height: 11em;
+    }
+    p.alteryx-certs {
+      height: 12em;
+    }
+    p.other-certs {
+      height: 16em;
+    }
+    p.uipath-certs {
+      height: 23em;
+    }
+  }
+  @media screen and (min-width: 980.2px) and (max-width: 1280px) {
+    p.pbi-certs {
+      height: 12em;
+    }
+    p.tableau-certs {
+      height: 8em;
+    }
+    p.alteryx-certs {
+      height: 8em;
+    }
+    p.other-certs {
+      height: 11em;
+    }
+    p.uipath-certs {
+      height: 16em;
+    }
+  }
+
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
@@ -153,6 +238,14 @@ h2 {
 
 h3 {
   font-size: 1.25em; }
+  h3.alteryx-certs-title {
+    height: 1.5em;
+  }
+  @media screen and (min-width: 736.5px) and (max-width: 785px) {
+    h3.alteryx-certs-title {
+      height: 3.0em;
+    }
+  }
 
 h4 {
   font-size: 1.1em; }
