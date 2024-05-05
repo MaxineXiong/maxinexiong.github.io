@@ -270,7 +270,11 @@ const searchResultsContainer = document.getElementById("searchResults");
 
 const projects = [
 	{ name: "My Personal Portfolio Website", url: "./projects/html-css.html#personal-web", labels: ['html5', 'css3', 'javascript', 'js', "Maxine's Tech Gallery", 'projects portfolio', 'project portfolio', 'personal website'] },
-	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps", labels: ['python', 'web application', 'gpt', 'chatgpt', 'streamlit', 'gTTS'] },
+	{ name: "OpenAI API Applications", url: "./projects/ai-projects.html#openai-webapps", labels: ['python', 'web applications', 'GPT models', 'chatgpt', 'streamlit cloud', 'TTS model', 'whisper model', 'GPT-3.5 Turbo Model',
+																																																 'GPT-4 Turbo Model', 'gpt-3.5-turbo', 'gpt-4-turbo', 'GPT 3.5', 'GPT 4', 'GPT3.5', 'GPT4', 'speech-to-text', 'text-to-speech',
+																																															   'speech to text', 'text to speech', 'voice communication', 'text communication', 'audio output', 'chat completions API', 'Assistants API',
+																																															   'voice input', 'text input', 'AI coding assistance', 'AI coding assistant', 'codemaxgpt', 'talk to gpt', 'chatbot', 'coderbot',
+																																															   'Code Generation', 'Code Debugging', 'Code Refactoring', 'Code Documentation', 'generate code', 'debug code', 'refactor code', 'document code'] },
 	{ name: "ChatGPT-3.5 Desktop App", url: "./projects/ai-projects.html#gpt-desktop", labels: ['ai', 'tkinter', 'GUI', 'pyttsx3', 'python', 'desktop application'] },
 	{ name: "ImageAI Computer Vision Flask Apps", url: "./projects/ai-projects.html#imageai-flask", labels: ['pandas', 'pd', 'computer vision', 'cv', 'html5', 'css3', 'python', 'application', 'data analysis', 'data analytics', 'analyze', 'analyse'] },
 	{ name: "Invoice Generator", url: "./projects/vba.html#invoicing", labels: ['vba', 'excel', 'invoicing', 'UserForms', 'user forms', 'ActiveX controls', 'business analysis', 'business analytics', 'BA'] },
