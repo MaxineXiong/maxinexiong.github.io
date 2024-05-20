@@ -146,19 +146,19 @@ p {
   }
   @media screen and (max-width: 480px) {
     p.pbi-certs {
-      height: 14em;
+      height: 15em;
     }
     p.tableau-certs {
-      height: 8em;
+      height: 9em;
     }
     p.alteryx-certs {
-      height: 9.5em;
+      height: 10.5em;
     }
     p.other-certs {
-      height: 11em;
+      height: 13em;
     }
     p.uipath-certs {
-      height: 18em;
+      height: 19.5em;
     }
   }
   @media screen and (min-width: 480.2px) and (max-width: 736px) {
