@@ -63,6 +63,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 65%;
 }
 
 .func-container {
@@ -88,7 +89,7 @@ body {
   margin-top: -100px;
   margin-bottom: 60px;
   /* position: absolute; */
-  width: 65%;
+  width: 100%;
   text-align: center;
   line-height: 1.35;
 }
@@ -100,7 +101,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 65%;
+  width: 100%;
 }
 
 .gif-img {
