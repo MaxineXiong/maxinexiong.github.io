@@ -188,6 +188,7 @@ body {
   .display-functions-containers {
     margin-bottom: 100px;
     margin-top: 50px;
+    width: 100%;
   }
 
   .func-container {
@@ -203,13 +204,11 @@ body {
   .func-description {
     font-size: 0.7rem;
     margin-top: -30px;
-    width: 100%;
   }
 
   .gif-container {
     margin-top: -30px;
     margin-bottom: 50px;
-    width: 100%;
   }
 
   .app-button {
