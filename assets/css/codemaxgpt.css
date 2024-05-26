@@ -64,12 +64,12 @@ body {
   justify-content: center;
   align-items: center;
   width: 65%;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 
 .func-container {
   position: relative;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -87,8 +87,8 @@ body {
   font-size: 1.2rem;
   font-weight: 400;
   color: #9EA4AC;
-  margin-top: -100px;
-  margin-bottom: 60px;
+  margin-top: -70px;
+  margin-bottom: 30px;
   /* position: absolute; */
   width: 100%;
   text-align: center;
@@ -96,7 +96,7 @@ body {
 }
 
 .gif-container {
-  margin-top: 0px;
+  margin-top: 3em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -151,9 +151,14 @@ body {
   font-weight: 600;
 }
 
-.video-part1 {
-  margin-bottom: 3em;
+video {
+  object-fit: cover;
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
+
+
+
 
 @media only screen and (max-width: 767px) {
   .introduction {
@@ -192,7 +197,7 @@ body {
     margin-bottom: 100px;
     margin-top: 50px;
     width: 100%;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
   }
 
   .func-container {
@@ -218,7 +223,4 @@ body {
     margin-bottom: 80px;
   }
 
-  .video-part1 {
-    margin-bottom: 0.1em;
-  }
 }
