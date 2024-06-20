@@ -338,7 +338,17 @@ const projects = [
   { name: "REFramework Exercise: ACME Vendor Check Bot", url: "./projects/rpa.html#acme-vendor-check", labels: ['UiPath RPA', 'Robotic Process Automation', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design', 'UiPath REFramework', 'UiPath Robotic Enterprise Framework',
 																																																								'vendor data checking', 'vendor checking', 'vendor checker', 'vendor verification', 'data scraping', 'table extraction', 'web scraping', 'datatables', 'Excel operations', 'datarow transaction items', 'datarow items'] },
 	{ name: "REFramework Exercise: ACME Work Items", url: "./projects/rpa.html#acme-work-items", labels: ['UiPath RPA', 'Robotic Process Automation', 'UiPath Robot', 'UiPath Studio', 'RPA Workflow', 'Automation Processes', 'UiPath Modern Design', 'UiPath REFramework', 'UiPath Robotic Enterprise Framework',
-																																																				'data scraping', 'web scraping', 'table extraction', 'Excel Operations', 'datatables', 'URL string transaction items', 'string items'] }
+																																																				'data scraping', 'web scraping', 'table extraction', 'Excel Operations', 'datatables', 'URL string transaction items', 'string items'] },
+	{ name: "Book Search Engine", url: "./projects/python.html#book-search-engine", labels: ['Python', 'Tkinter GUI', 'CustomTkinter', 'GUI', 'Graphic User Interface', 'SQLite3', 'SQLite Database', 'SQL Database Operations', 'SQL Queries', 'SQL commands',
+																																													 'Pandas Dataframe', 'GUI Desktop Application', 'GUI Application', 'SQL Database Management', 'books', 'book collections'] },
+	{ name: "Geocoding Web Service", url: "./projects/python.html#geocoding-web", labels: ['Python', 'Flask Web Application', 'Folium Maps', 'Folium Mapping', 'Pandas Dataframe', 'HTML5', 'CSS3', 'Flask Geocoding Web Service', 'Geocoder', 'File Uploading',
+																																												 'File Downloading', 'File Processing', 'SuperGeocoder', 'latitude', 'longitude', 'coordinates', 'preview output table', 'integrated mapping'] },
+  { name: "Music Events Web Scraper", url: "./projects/python.html#music-events-web-scraper", labels: ['Python', 'BeautifulSoup4', 'Web Scraping', 'CSV Export', 'CSV Output', 'Email Sending with attachments', 'Email Sender', 'smtplib',
+																																																       'Pandas Dataframe', 'Psycopg2', 'PostgreSQL Database Operations', 'PostgreSQL Database Management', 'SQL commands', 'SQL queries',
+																																																		 	 'Data Migration', 'requests', 'Eventbrite Music Events', 'marketing email with CSV output'] },
+	{ name: "WebCam Monitoring App with Email Alerts", url: "./projects/python.html#webcam-monitoring", labels: ['Python', 'OpenCV', 'cv2', 'computer vision', 'Email Sending with attachments', 'Email Sender', 'Python Threading',
+																																																					     'WebCam Motion Detection', 'WebCam Motion Detector', 'Moving Object Detection', 'Security Camera', 'CCTV', 'WebCam Streaming',
+																																																						 	 'Doorbell Camera', 'Security Alerts', 'Security Updates', 'Security Alert Emails', 'Security Update Emails'] }
 	// Add more projects here
 ];
 
