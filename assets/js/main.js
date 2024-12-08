@@ -344,11 +344,16 @@ const projects = [
 	{ name: "Geocoding Web Service", url: "./projects/python.html#geocoding-web", labels: ['Python', 'Flask Web Application', 'Folium Maps', 'Folium Mapping', 'Pandas Dataframe', 'HTML5', 'CSS3', 'Flask Geocoding Web Service', 'Geocoder', 'File Uploading',
 																																												 'File Downloading', 'File Processing', 'SuperGeocoder', 'latitude', 'longitude', 'coordinates', 'preview output table', 'integrated mapping'] },
   { name: "Music Events Web Scraper", url: "./projects/python.html#music-events-web-scraper", labels: ['Python', 'BeautifulSoup4', 'Web Scraping', 'CSV Export', 'CSV Output', 'Email Sending with attachments', 'Email Sender', 'smtplib',
-																																																       'Pandas Dataframe', 'Psycopg2', 'PostgreSQL Database Operations', 'PostgreSQL Database Management', 'SQL commands', 'SQL queries',
-																																																		 	 'Data Migration', 'requests', 'Eventbrite Music Events', 'marketing email with CSV output'] },
-	{ name: "WebCam Monitoring App with Email Alerts", url: "./projects/python.html#webcam-monitoring", labels: ['Python', 'OpenCV', 'cv2', 'computer vision', 'Email Sending with attachments', 'Email Sender', 'Python Threading',
-																																																					     'WebCam Motion Detection', 'WebCam Motion Detector', 'Moving Object Detection', 'Security Camera', 'CCTV', 'WebCam Streaming',
-																																																						 	 'Doorbell Camera', 'Security Alerts', 'Security Updates', 'Security Alert Emails', 'Security Update Emails'] }
+																								       'Pandas Dataframe', 'Psycopg2', 'PostgreSQL Database Operations', 'PostgreSQL Database Management', 'SQL commands', 'SQL queries',
+																								 	   'Data Migration', 'requests', 'Eventbrite Music Events', 'marketing email with CSV output'] },
+   { name: "WebCam Monitoring App with Email Alerts", url: "./projects/python.html#webcam-monitoring", labels: ['Python', 'OpenCV', 'cv2', 'computer vision', 'Email Sending with attachments', 'Email Sender', 'Python Threading',
+																											     'WebCam Motion Detection', 'WebCam Motion Detector', 'Moving Object Detection', 'Security Camera', 'CCTV', 'WebCam Streaming',
+																												 	 'Doorbell Camera', 'Security Alerts', 'Security Updates', 'Security Alert Emails', 'Security Update Emails'] },
+{ name: "Data Modelling with Apache Cassandra", url: "./projects/data-engineering.html#cassandra", labels: ['Python', 'NoSQL Database', 'CQL commands', 'ETL Pipeline', 'NoSQL Query', 'NoSQL Queries', 'Data Engineering'] },
+{ name: "Cloud Data Warehousing with AWS Redshift", url: "./projects/data-engineering.html#cloud-wh-redshift", labels: ['Python', 'PostgreSQL Database', 'ETL Pipeline', 'Data Engineering', 'Cloud Data Warehouse', 'Infrastructure-as-Code',
+                                                                                                                        'IaC', 'Load', 'Loading', 'aws boto3', 'AWS S3', 'staging area', 'Amazon Redshift Cluster', 'Amazon S3',
+                                                                                                                        'Dimensional Modelling', 'Fact Tables', 'Dimension Tables', 'Dim Tables', 'Star schema', 'star-schema',
+                                                                                                                        'data model', 'data modelling', 'SQL queries', 'SQL query', 'SQL querying'] }
 	// Add more projects here
 ];
 
