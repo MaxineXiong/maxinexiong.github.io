@@ -353,7 +353,14 @@ const projects = [
  { name: "Cloud Data Warehousing with AWS Redshift", url: "./projects/data-engineering.html#cloud-wh-redshift", labels: ['Python', 'PostgreSQL Database', 'ETL Pipeline', 'Data Engineering', 'Cloud Data Warehouse', 'Infrastructure-as-Code',
                                                                                                                          'IaC', 'Load', 'Loading', 'aws boto3', 'AWS S3', 'staging area', 'Amazon Redshift Cluster', 'Amazon S3',
                                                                                                                          'Dimensional Modelling', 'Fact Tables', 'Dimension Tables', 'Dim Tables', 'Star schema', 'star-schema',
-                                                                                                                         'data model', 'data modelling', 'SQL queries', 'SQL query', 'SQL querying'] }
+                                                                                                                         'data model', 'data modelling', 'SQL queries', 'SQL query', 'SQL querying'] },
+ { name: "Centauri Alpha's Retail Data Consulting Project", url: "./projects/data-analytics.html#centauri-alpha", labels: ['Python', 'SQL queries', 'SQL query', 'SQL querying', 'dbt', 'data build tool', 'elt',
+                                                                                                                           'extract load transform', 'Fivetran', 'GCP BigQuery', 'within data warehouse', 'data warehousing',
+                                                                                                                           'data transformation', 'pandas DataFrame', 'Power BI', 'statistical analysis', 'retail analytics',
+                                                                                                                           'retail analysis', 'customer retention', 'customer churn', 'business strategy', 'boost sales',
+                                                                                                                           'increase sales', 'data analysis', 'data analytics', 'data engineering', 'analytics engineering',
+                                                                                                                           'data visualisation', 'data visualization', 'data visuals', 'dbt models', 'dbt modelling', 'refactor SQL code',
+                                                                                                                           'SQL model refactoring', 'SQL models'] }
 	// Add more projects here
 ];
 
