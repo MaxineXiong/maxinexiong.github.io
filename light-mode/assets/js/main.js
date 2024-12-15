@@ -360,7 +360,9 @@ const projects = [
                                                                                                                            'retail analysis', 'customer retention', 'customer churn', 'business strategy', 'boost sales',
                                                                                                                            'increase sales', 'data analysis', 'data analytics', 'data engineering', 'analytics engineering',
                                                                                                                            'data visualisation', 'data visualization', 'data visuals', 'dbt models', 'dbt modelling', 'refactor SQL code',
-                                                                                                                           'SQL model refactoring', 'SQL models'] }
+                                                                                                                           'SQL model refactoring', 'SQL models', "Spearman's Rank Correlation", 'Hypothesis Testing', 'Hypothesis Tests',
+                                                                                                                           "Bayes' Theorem", 'Customer Retention Probability', 'Customer Retention Probabilities', 'Confidence Interval for Binomial Proportion',
+                                                                                                                           'Confidence Intervals', 'CI', 'Binomial Confidence Intervals', 'total online sales'] }
 	// Add more projects here
 ];
 
