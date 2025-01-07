@@ -362,7 +362,10 @@ const projects = [
                                                                                                                           'data visualisation', 'data visualization', 'data visuals', 'dbt models', 'dbt modelling', 'refactor SQL code',
                                                                                                                           'SQL model refactoring', 'SQL models', "Spearman's Rank Correlation", 'Hypothesis Testing', 'Hypothesis Tests',
                                                                                                                           "Bayes' Theorem", 'Customer Retention Probability', 'Customer Retention Probabilities', 'Confidence Interval for Binomial Proportion',
-                                                                                                                          'Confidence Intervals', 'CI', 'Binomial Confidence Intervals', 'total online sales'] }
+                                                                                                                          'Confidence Intervals', 'CI', 'Binomial Confidence Intervals', 'total online sales'] },
+{ name: "2024 Week 51 | Highlight Data with a Slicer", url: "./projects/power-bi.html#wow-2024-51", labels: ['Data Viz', 'Data Visualisation', 'Data Visualization', 'Business Intelligence (BI)', 'Power BI Challenges', 'Workout Wednesday 2024', 'WOW2024'] },
+{ name: "2024 Week 49 | Plot Ranges with Percentiles", url: "./projects/power-bi.html#wow-2024-49", labels: ['Data Viz', 'Data Visualisation', 'Data Visualization', 'Business Intelligence (BI)', 'Power BI Challenges', 'Workout Wednesday 2024', 'WOW2024'] },
+{ name: "2024 Week 48 | Use a Calendar as a Filter", url: "./projects/power-bi.html#wow-2024-48", labels: ['Data Viz', 'Data Visualisation', 'Data Visualization', 'Business Intelligence (BI)', 'Power BI Challenges', 'Workout Wednesday 2024', 'WOW2024'] }
 	// Add more projects here
 ];
 
