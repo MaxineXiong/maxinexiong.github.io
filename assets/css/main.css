@@ -132,6 +132,9 @@ p {
   p.pbi-certs {
     height: 15em;
   }
+  p.de-certs {
+    height: 12em;
+  }
   p.tableau-certs {
     height: 9em;
   }
