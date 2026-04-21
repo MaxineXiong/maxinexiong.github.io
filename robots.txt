@@ -1,0 +1,15 @@
+# robots.txt for maxinexiong.com
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow sensitive directories if any
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://maxinexiong.com/sitemap.xml
+
+# Crawl delay for polite crawling (optional)
+Crawl-delay: 2
