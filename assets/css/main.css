@@ -2721,3 +2721,22 @@ button,
 /* .back-to-top:hover .text, .back-to-top:focus .text {
   display: inline; /* Show the text on hover */
 /* }  */
+
+/* ===== Search Results Visibility Utility ===== */
+#searchResults {
+display: none;
+}
+
+#searchResults.visible {
+display: block;
+}
+
+/* ===== Back to Top Button Visibility Utility ===== */
+#backToTopText {
+display: none;
+cursor: pointer;
+}
+
+#backToTopText.visible {
+display: inline-block;
+}

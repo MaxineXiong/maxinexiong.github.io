@@ -1,10 +1,29 @@
+:root {
+  --color-cyan: #93f5ec;
+  --color-purple: #a77bf3;
+  --color-dark-bg: #1B1F24;
+  --color-dark-mid: #323942;
+  --color-white: #fff;
+  --color-gray: #9EA4AC;
+  --color-gray-light: rgba(255, 255, 255, 0.2);
+  --color-gray-border: rgba(158, 164, 172, 0.4);
+  --color-text-dark: #333;
+}
+
 body {
-  background: radial-gradient(circle at center, #323942, #1B1F24);
+  background: radial-gradient(circle at center, var(--color-dark-mid), var(--color-dark-bg));
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: "Mona Sans","Mona Sans Header Fallback",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .introduction {
